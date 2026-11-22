@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.FirstCollisionLaw",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.jacMul_newtonDir",
+    "GC.SeqNORNormalForms.error_identity",
+    "GC.SeqNORNormalForms.first_collision_law",
+    "GC.SeqNORNormalForms.newton_rounds",
+    "GC.SeqNORNormalForms.newton_converges",
+    "GC.SeqNORNormalForms.newton_converges_std",
+    "GC.SeqNORNormalForms.collision_without_active_parent"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

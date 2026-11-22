@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.OneEntryA5",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.oneEntry_power",
+    "GC.A5Programs.thirty_classes",
+    "GC.A5Programs.dominator_power",
+    "GC.A5Programs.inv_gate_dominated",
+    "GC.A5Programs.square_gate_dominated",
+    "GC.A5Programs.dichotomy"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

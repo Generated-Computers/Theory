@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.SCkCompleteSPAI",
+  "solution_module": "GC.Computability.SCLadder.Main",
+  "theorem_names": [
+    "GC.SCLadder.BitMachine.toStage_A",
+    "GC.SCLadder.bitMachine_run",
+    "GC.SCLadder.pair_exact",
+    "GC.SCLadder.recompress_exact",
+    "GC.SCLadder.invariant_observation_run"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

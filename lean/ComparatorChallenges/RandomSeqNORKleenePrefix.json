@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.RandomSeqNORKleenePrefix",
+  "solution_module": "GC.Computability.RandomSeqNOR.Main",
+  "theorem_names": [
+    "GC.RandomSeqNOR.trace_eq_lastReset",
+    "GC.RandomSeqNOR.kp_rounds_eq_depth",
+    "GC.RandomSeqNOR.kp_success_iff",
+    "GC.RandomSeqNOR.exists_depChain",
+    "GC.RandomSeqNOR.kp_finishes_of_no_long_chain",
+    "GC.RandomSeqNOR.epsK_threshold",
+    "GC.RandomSeqNOR.fixed_point_density",
+    "GC.RandomSeqNOR.epsB_threshold",
+    "GC.RandomSeqNOR.varpi_threshold"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

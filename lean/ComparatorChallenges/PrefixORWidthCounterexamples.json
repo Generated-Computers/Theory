@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ComparatorChallenges.PrefixORWidthCounterexamples",
+  "solution_module": "GC.Combinatorics.GridCompilers.Main",
+  "theorem_names": [
+    "GC.GridCompilers.maskedY_bijective",
+    "GC.GridCompilers.unmask_maskedY",
+    "GC.GridCompilers.maskedY_unmask",
+    "GC.GridCompilers.mixedDeriv_xor_const",
+    "GC.GridCompilers.maskedPrefixOr_prefix",
+    "GC.GridCompilers.maskedPrefixOr_formula",
+    "GC.GridCompilers.maskedPrefixOr_curvature_complete",
+    "GC.GridCompilers.maskedY_zero_mask",
+    "GC.GridCompilers.revPrefix_value",
+    "GC.GridCompilers.revPrefix_minor_model",
+    "GC.GridCompilers.triGrid_card",
+    "GC.GridCompilers.triGrid_vertexCover_card",
+    "GC.GridCompilers.triGrid_Krr"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

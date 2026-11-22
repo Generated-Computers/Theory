@@ -1,0 +1,27 @@
+{
+  "challenge_module": "ComparatorChallenges.NewtonStrahlerRounds",
+  "solution_module": "GC.Computability.NewtonStrahler.Main",
+  "theorem_names": [
+    "GC.NewtonStrahler.existsUnique_isValue",
+    "GC.NewtonStrahler.newton_eq_self_iff",
+    "GC.NewtonStrahler.det_jacobian",
+    "GC.NewtonStrahler.error_identity",
+    "GC.NewtonStrahler.rank_isValidLayering",
+    "GC.NewtonStrahler.rank_le_of_isValidLayering",
+    "GC.NewtonStrahler.newton_strahler",
+    "GC.NewtonStrahler.newton_evaluates",
+    "GC.NewtonStrahler.newton_evaluates_of_isValidLayering",
+    "GC.NewtonStrahler.taylor_identity",
+    "GC.NewtonStrahler.BoolSystem.error_identity",
+    "GC.NewtonStrahler.BoolSystem.taylor_newton_strahler",
+    "GC.NewtonStrahler.BoolSystem.taylor_newton_evaluates",
+    "GC.NewtonStrahler.BoolSystem.existsUnique_isValue"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

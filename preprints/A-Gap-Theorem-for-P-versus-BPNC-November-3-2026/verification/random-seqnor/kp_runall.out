@@ -1,0 +1,101 @@
+== KP on uniform instances
+base unif n=1024 eps=1.0000 kp-mean=20.70 max=25 capped=0/10
+base unif n=16384 eps=1.0000 kp-mean=37.90 max=43 capped=0/10
+base unif n=262144 eps=1.0000 kp-mean=56.20 max=65 capped=0/10
+base unif n=4194304 eps=1.0000 kp-mean=74.30 max=77 capped=0/10
+== KP on smoothed bases
+base im2 n=4096 eps=0.5000 kp-mean=161.00 max=172 capped=0/6
+base im2 n=65536 eps=0.5000 kp-mean=361.00 max=408 capped=0/6
+base im2 n=1048576 eps=0.5000 kp-mean=616.50 max=640 capped=0/6
+base im2 n=4096 eps=0.7000 kp-mean=76.67 max=83 capped=0/6
+base im2 n=65536 eps=0.7000 kp-mean=146.83 max=154 capped=0/6
+base im2 n=1048576 eps=0.7000 kp-mean=224.17 max=241 capped=0/6
+base im2 n=4096 eps=0.8000 kp-mean=55.33 max=63 capped=0/6
+base im2 n=65536 eps=0.8000 kp-mean=102.33 max=107 capped=0/6
+base im2 n=1048576 eps=0.8000 kp-mean=147.67 max=156 capped=0/6
+base im2 n=4096 eps=0.9000 kp-mean=43.33 max=49 capped=0/6
+base im2 n=65536 eps=0.9000 kp-mean=68.83 max=73 capped=0/6
+base im2 n=1048576 eps=0.9000 kp-mean=96.33 max=102 capped=0/6
+base im3 n=4096 eps=0.5000 kp-mean=169.83 max=239 capped=0/6
+base im3 n=65536 eps=0.5000 kp-mean=427.33 max=455 capped=0/6
+base im3 n=1048576 eps=0.5000 kp-mean=690.83 max=785 capped=0/6
+base im3 n=4096 eps=0.7000 kp-mean=74.50 max=85 capped=0/6
+base im3 n=65536 eps=0.7000 kp-mean=142.00 max=155 capped=0/6
+base im3 n=1048576 eps=0.7000 kp-mean=223.83 max=248 capped=0/6
+base im3 n=4096 eps=0.8000 kp-mean=51.33 max=59 capped=0/6
+base im3 n=65536 eps=0.8000 kp-mean=99.17 max=108 capped=0/6
+base im3 n=1048576 eps=0.8000 kp-mean=149.17 max=164 capped=0/6
+base im3 n=4096 eps=0.9000 kp-mean=39.50 max=45 capped=0/6
+base im3 n=65536 eps=0.9000 kp-mean=67.83 max=72 capped=0/6
+base im3 n=1048576 eps=0.9000 kp-mean=96.00 max=100 capped=0/6
+base wn n=4096 eps=0.5000 kp-mean=76.67 max=98 capped=0/6
+base wn n=65536 eps=0.5000 kp-mean=158.17 max=190 capped=0/6
+base wn n=1048576 eps=0.5000 kp-mean=226.67 max=249 capped=0/6
+base wn n=4096 eps=0.7000 kp-mean=49.67 max=60 capped=0/6
+base wn n=65536 eps=0.7000 kp-mean=85.50 max=95 capped=0/6
+base wn n=1048576 eps=0.7000 kp-mean=127.00 max=136 capped=0/6
+base wn n=4096 eps=0.8000 kp-mean=41.17 max=43 capped=0/6
+base wn n=65536 eps=0.8000 kp-mean=68.50 max=78 capped=0/6
+base wn n=1048576 eps=0.8000 kp-mean=99.33 max=106 capped=0/6
+base wn n=4096 eps=0.9000 kp-mean=34.17 max=37 capped=0/6
+base wn n=65536 eps=0.9000 kp-mean=56.33 max=59 capped=0/6
+base wn n=1048576 eps=0.9000 kp-mean=78.00 max=80 capped=0/6
+base one n=4096 eps=0.5000 kp-mean=25.83 max=31 capped=0/6
+base one n=65536 eps=0.5000 kp-mean=41.67 max=46 capped=0/6
+base one n=1048576 eps=0.5000 kp-mean=56.00 max=60 capped=0/6
+base one n=4096 eps=0.7000 kp-mean=26.17 max=28 capped=0/6
+base one n=65536 eps=0.7000 kp-mean=42.17 max=45 capped=0/6
+base one n=1048576 eps=0.7000 kp-mean=60.33 max=63 capped=0/6
+base one n=4096 eps=0.8000 kp-mean=27.50 max=31 capped=0/6
+base one n=65536 eps=0.8000 kp-mean=43.17 max=45 capped=0/6
+base one n=1048576 eps=0.8000 kp-mean=61.83 max=64 capped=0/6
+base one n=4096 eps=0.9000 kp-mean=29.50 max=35 capped=0/6
+base one n=65536 eps=0.9000 kp-mean=46.17 max=49 capped=0/6
+base one n=1048576 eps=0.9000 kp-mean=61.67 max=65 capped=0/6
+base half n=4096 eps=0.5000 kp-mean=21.83 max=24 capped=0/6
+base half n=65536 eps=0.5000 kp-mean=33.17 max=35 capped=0/6
+base half n=1048576 eps=0.5000 kp-mean=43.67 max=46 capped=0/6
+base half n=4096 eps=0.7000 kp-mean=25.33 max=27 capped=0/6
+base half n=65536 eps=0.7000 kp-mean=37.83 max=40 capped=0/6
+base half n=1048576 eps=0.7000 kp-mean=51.67 max=57 capped=0/6
+base half n=4096 eps=0.8000 kp-mean=27.17 max=31 capped=0/6
+base half n=65536 eps=0.8000 kp-mean=42.00 max=46 capped=0/6
+base half n=1048576 eps=0.8000 kp-mean=55.67 max=57 capped=0/6
+base half n=4096 eps=0.9000 kp-mean=29.33 max=34 capped=0/6
+base half n=65536 eps=0.9000 kp-mean=43.67 max=47 capped=0/6
+base half n=1048576 eps=0.9000 kp-mean=59.50 max=62 capped=0/6
+base sqrt n=4096 eps=0.5000 kp-mean=104.83 max=115 capped=0/6
+base sqrt n=65536 eps=0.5000 kp-mean=402.50 max=426 capped=0/6
+base sqrt n=1048576 eps=0.5000 kp-mean=1159.50 max=1206 capped=0/6
+base sqrt n=4096 eps=0.7000 kp-mean=68.00 max=77 capped=0/6
+base sqrt n=65536 eps=0.7000 kp-mean=158.33 max=165 capped=0/6
+base sqrt n=1048576 eps=0.7000 kp-mean=274.83 max=278 capped=0/6
+base sqrt n=4096 eps=0.8000 kp-mean=49.17 max=54 capped=0/6
+base sqrt n=65536 eps=0.8000 kp-mean=104.83 max=131 capped=0/6
+base sqrt n=1048576 eps=0.8000 kp-mean=160.83 max=170 capped=0/6
+base sqrt n=4096 eps=0.9000 kp-mean=38.33 max=43 capped=0/6
+base sqrt n=65536 eps=0.9000 kp-mean=69.50 max=73 capped=0/6
+base sqrt n=1048576 eps=0.9000 kp-mean=100.67 max=108 capped=0/6
+== KP on embedded instances (m=9, h=2)
+embed s=40 m=9 h=2 n=24481 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  kp-mean=135.0 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  kp-mean=451.0 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  kp-mean=1521.0 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  kp-mean=143.2 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0023  worst-bundle-bad=0.222  kp-mean=501.5 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0020  worst-bundle-bad=0.111  kp-mean=1897.0 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.30000  output-correct=0.000  mean-bad-frac=0.4437  worst-bundle-bad=1.000  kp-mean=170.0 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.30000  output-correct=0.750  mean-bad-frac=0.4627  worst-bundle-bad=1.000  kp-mean=623.8 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.30000  output-correct=0.500  mean-bad-frac=0.4576  worst-bundle-bad=1.000  kp-mean=2219.2 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.60000  output-correct=0.250  mean-bad-frac=0.4549  worst-bundle-bad=1.000  kp-mean=72.8 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.60000  output-correct=1.000  mean-bad-frac=0.4694  worst-bundle-bad=1.000  kp-mean=125.0 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.60000  output-correct=0.000  mean-bad-frac=0.4650  worst-bundle-bad=1.000  kp-mean=186.5 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.80000  output-correct=0.500  mean-bad-frac=0.4451  worst-bundle-bad=0.889  kp-mean=49.0 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.80000  output-correct=0.500  mean-bad-frac=0.4675  worst-bundle-bad=1.000  kp-mean=67.2 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.80000  output-correct=0.500  mean-bad-frac=0.4687  worst-bundle-bad=1.000  kp-mean=88.2 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.90000  output-correct=0.250  mean-bad-frac=0.4569  worst-bundle-bad=0.889  kp-mean=44.8 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.90000  output-correct=0.500  mean-bad-frac=0.4641  worst-bundle-bad=1.000  kp-mean=60.0 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.90000  output-correct=0.250  mean-bad-frac=0.4749  worst-bundle-bad=1.000  kp-mean=68.8 (capped 0/4 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=1.00000  output-correct=0.500  mean-bad-frac=0.4542  worst-bundle-bad=1.000  kp-mean=38.8 (capped 0/4 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=1.00000  output-correct=0.750  mean-bad-frac=0.4682  worst-bundle-bad=1.000  kp-mean=48.5 (capped 0/4 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=1.00000  output-correct=0.250  mean-bad-frac=0.4741  worst-bundle-bad=1.000  kp-mean=60.5 (capped 0/4 at 400000)  [ones among gates 252/640]
+DONE

@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ComparatorChallenges.FourBarriers",
+  "solution_module": "GC.Computability.Tabulation.Main",
+  "theorem_names": [
+    "GC.Tabulation.summary_card_ge",
+    "GC.Tabulation.cyc_tau_generate",
+    "GC.Tabulation.observable_dim",
+    "GC.Tabulation.features_dim_linear",
+    "GC.Tabulation.features_dim_affine",
+    "GC.Tabulation.copy_correction_value",
+    "GC.Tabulation.copy_block_exact_iff",
+    "GC.Tabulation.copy_multiscale_lower",
+    "GC.Tabulation.zmod2_mul_self",
+    "GC.Tabulation.ladder_eval",
+    "GC.Tabulation.ladder_rank",
+    "GC.Tabulation.ladder_newton",
+    "GC.Tabulation.ladder_first_exact"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.FractionalCoversHardness",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.CarrierGraph.weak_duality",
+    "GC.FlowCircuits.CarrierGraph.concentration",
+    "GC.FlowCircuits.CarrierGraph.concentration_incomparable",
+    "GC.FlowCircuits.factorTwo_example",
+    "GC.FlowCircuits.railGraph_load",
+    "GC.FlowCircuits.mirage_height"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.CloneAndDecomposePebbling",
+  "solution_module": "GC.Computability.StructuralCompilers.Main",
+  "theorem_names": [
+    "GC.StructuralCompilers.pebbling_projection",
+    "GC.StructuralCompilers.unfolding_computes",
+    "GC.StructuralCompilers.grid_pebbling_lower",
+    "GC.StructuralCompilers.grid_pebbling_upper",
+    "GC.StructuralCompilers.grid_pebblingPrice",
+    "GC.StructuralCompilers.grid_unfolding_pebbling_lower"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

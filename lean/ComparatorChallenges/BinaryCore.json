@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.BinaryCore",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.root_classification",
+    "GC.SeqNORNormalForms.desc_correct",
+    "GC.SeqNORNormalForms.core_triangular",
+    "GC.SeqNORNormalForms.core_system_unique",
+    "GC.SeqNORNormalForms.retraction",
+    "GC.SeqNORNormalForms.embed_universal"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

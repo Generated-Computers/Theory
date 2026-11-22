@@ -1,0 +1,9 @@
+import GC.GroupTheory.A5Programs.Collisions
+import GC.GroupTheory.A5Programs.DeepCore
+import GC.GroupTheory.A5Programs.Nineteen
+import GC.GroupTheory.A5Programs.Scans
+import GC.GroupTheory.A5Programs.OneEntry
+import GC.GroupTheory.A5Programs.Descriptors
+import GC.GroupTheory.A5Programs.Opening
+import GC.GroupTheory.A5Programs.Strahler
+import GC.GroupTheory.A5Programs.Symmetry

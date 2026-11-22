@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.ControlTrace",
+  "solution_module": "GC.Computability.Tabulation.Main",
+  "theorem_names": [
+    "GC.Tabulation.RSMachine.run_ctrl_eq",
+    "GC.Tabulation.RSMachine.accept_of_ctrlTrace",
+    "GC.Tabulation.RSMachine.trL_lower",
+    "GC.Tabulation.RSMachine.regVec_eq",
+    "GC.Tabulation.dblS_eq",
+    "GC.Tabulation.dblS_inverse",
+    "GC.Tabulation.RSMachine.trL_nilpotent",
+    "GC.Tabulation.RSMachine.payload_reconstruction"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

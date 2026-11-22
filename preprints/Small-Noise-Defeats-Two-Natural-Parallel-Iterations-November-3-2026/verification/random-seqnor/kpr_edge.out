@@ -1,0 +1,62 @@
+# KPR (O(n) depth) on spread, log-uniform and fixed-distance bases, n = 2^16..2^26, 2 smoothings, seed 9
+kprd   spread64  n=2^16 eps=0.45 mean=   268.5 max=   275
+kprd   spread64  n=2^20 eps=0.45 mean=   602.0 max=   658
+kprd   spread64  n=2^24 eps=0.45 mean=  1088.5 max=  1117
+kprd   spread64  n=2^26 eps=0.45 mean=  1326.0 max=  1354
+kprd   spread64  n=2^16 eps=0.50 mean=   155.0 max=   163
+kprd   spread64  n=2^20 eps=0.50 mean=   324.0 max=   329
+kprd   spread64  n=2^24 eps=0.50 mean=   510.0 max=   516
+kprd   spread64  n=2^26 eps=0.50 mean=   628.0 max=   643
+kprd   spread64  n=2^16 eps=0.55 mean=   112.0 max=   117
+kprd   spread64  n=2^20 eps=0.55 mean=   225.0 max=   246
+kprd   spread64  n=2^24 eps=0.55 mean=   348.0 max=   367
+kprd   spread64  n=2^26 eps=0.55 mean=   404.5 max=   416
+kprd   spread256 n=2^16 eps=0.45 mean=   126.5 max=   128
+kprd   spread256 n=2^20 eps=0.45 mean=   455.0 max=   460
+kprd   spread256 n=2^24 eps=0.45 mean=  1040.0 max=  1076
+kprd   spread256 n=2^26 eps=0.45 mean=  1283.0 max=  1287
+kprd   spread256 n=2^16 eps=0.50 mean=   108.5 max=   112
+kprd   spread256 n=2^20 eps=0.50 mean=   310.0 max=   321
+kprd   spread256 n=2^24 eps=0.50 mean=   495.5 max=   524
+kprd   spread256 n=2^26 eps=0.50 mean=   610.0 max=   628
+kprd   spread256 n=2^16 eps=0.55 mean=    82.5 max=    88
+kprd   spread256 n=2^20 eps=0.55 mean=   176.0 max=   179
+kprd   spread256 n=2^24 eps=0.55 mean=   294.5 max=   305
+kprd   spread256 n=2^26 eps=0.55 mean=   351.5 max=   353
+kprd   lgu       n=2^16 eps=0.45 mean=   119.5 max=   132
+kprd   lgu       n=2^20 eps=0.45 mean=   201.0 max=   210
+kprd   lgu       n=2^24 eps=0.45 mean=   323.5 max=   324
+kprd   lgu       n=2^26 eps=0.45 mean=   393.5 max=   394
+kprd   lgu       n=2^16 eps=0.50 mean=    99.0 max=   101
+kprd   lgu       n=2^20 eps=0.50 mean=   177.0 max=   180
+kprd   lgu       n=2^24 eps=0.50 mean=   253.5 max=   257
+kprd   lgu       n=2^26 eps=0.50 mean=   303.5 max=   313
+kprd   lgu       n=2^16 eps=0.55 mean=    90.0 max=    99
+kprd   lgu       n=2^20 eps=0.55 mean=   139.0 max=   153
+kprd   lgu       n=2^24 eps=0.55 mean=   204.0 max=   209
+kprd   lgu       n=2^26 eps=0.55 mean=   237.5 max=   238
+kprd   fix4      n=2^16 eps=0.45 mean=   209.0 max=   221
+kprd   fix4      n=2^20 eps=0.45 mean=   334.5 max=   340
+kprd   fix4      n=2^24 eps=0.45 mean=   478.0 max=   483
+kprd   fix4      n=2^26 eps=0.45 mean=   532.0 max=   548
+kprd   fix4      n=2^16 eps=0.50 mean=   149.5 max=   155
+kprd   fix4      n=2^20 eps=0.50 mean=   259.5 max=   279
+kprd   fix4      n=2^24 eps=0.50 mean=   342.0 max=   352
+kprd   fix4      n=2^26 eps=0.50 mean=   383.5 max=   384
+kprd   fix4      n=2^16 eps=0.55 mean=   144.5 max=   155
+kprd   fix4      n=2^20 eps=0.55 mean=   217.5 max=   218
+kprd   fix4      n=2^24 eps=0.55 mean=   290.0 max=   308
+kprd   fix4      n=2^26 eps=0.55 mean=   318.0 max=   333
+# greedy bases against KPR, 24 training / 6 fresh smoothings, seed 13
+greedy-kpr n=2^12 eps=0.45 train=405.6 test-mean=126.5 test-max=150
+greedy-kpr n=2^14 eps=0.45 train=1313.7 test-mean=202.7 test-max=242
+greedy-kpr n=2^16 eps=0.45 train=4406.5 test-mean=316.3 test-max=354
+greedy-kpr n=2^18 eps=0.45 train=15669.0 test-mean=487.2 test-max=560
+greedy-kpr n=2^12 eps=0.50 train=321.2 test-mean=96.0 test-max=117
+greedy-kpr n=2^14 eps=0.50 train=926.0 test-mean=143.5 test-max=174
+greedy-kpr n=2^16 eps=0.50 train=2733.3 test-mean=226.3 test-max=255
+greedy-kpr n=2^18 eps=0.50 train=7946.9 test-mean=307.5 test-max=350
+greedy-kpr n=2^12 eps=0.55 train=251.1 test-mean=79.5 test-max=102
+greedy-kpr n=2^14 eps=0.55 train=672.7 test-mean=112.5 test-max=143
+greedy-kpr n=2^16 eps=0.55 train=1693.9 test-mean=161.8 test-max=180
+greedy-kpr n=2^18 eps=0.55 train=3984.2 test-mean=203.5 test-max=218

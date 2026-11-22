@@ -1,0 +1,23 @@
+{
+  "challenge_module": "ComparatorChallenges.NineteenOrbitsA5",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.hall_generation",
+    "GC.A5Programs.census_hot",
+    "GC.A5Programs.census_cold",
+    "GC.A5Programs.mirror_word",
+    "GC.A5Programs.mirror_selectors",
+    "GC.A5Programs.no_interpolation",
+    "GC.A5Programs.pow_bijective_iff",
+    "GC.A5Programs.unitPower_R_bijective_iff",
+    "GC.A5Programs.unitPower_L_bijective_iff",
+    "GC.A5Programs.fib_update_inverse"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

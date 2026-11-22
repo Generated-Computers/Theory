@@ -1,0 +1,30 @@
+{
+  "challenge_module": "ComparatorChallenges.NORTilingRotation",
+  "solution_module": "GC.Computability.Tabulation.Main",
+  "theorem_names": [
+    "GC.Tabulation.lagSeq_rows",
+    "GC.Tabulation.two_sweep_landing",
+    "GC.Tabulation.sweep_proj_tiling",
+    "GC.Tabulation.sweep_orbit",
+    "GC.Tabulation.nor_periodic",
+    "GC.Tabulation.nor_lag_sequence_tiling",
+    "GC.Tabulation.proj_injOn",
+    "GC.Tabulation.tiling_local",
+    "GC.Tabulation.sweep_conjGate",
+    "GC.Tabulation.sweep_P_idem",
+    "GC.Tabulation.sweep_Q_two",
+    "GC.Tabulation.sweep_A_two",
+    "GC.Tabulation.collapse_six",
+    "GC.Tabulation.nonaffine_iff_norPol",
+    "GC.Tabulation.norPol_injective",
+    "GC.Tabulation.gauge_conjugacy",
+    "GC.Tabulation.gauge_greedy_optimal"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

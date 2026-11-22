@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ComparatorChallenges.CircuitLPPrecision",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.MonCircuit.circuitLP_unique",
+    "GC.FlowCircuits.fib_precision",
+    "GC.FlowCircuits.fibDelta_bounds",
+    "GC.FlowCircuits.ladder_det",
+    "GC.FlowCircuits.ladder_minor",
+    "GC.FlowCircuits.MonCircuit.val_true_of_not_losing",
+    "GC.FlowCircuits.MonCircuit.val_false_of_losing",
+    "GC.FlowCircuits.MonCircuit.losing_antitone",
+    "GC.FlowCircuits.MonCircuit.switched_not_losing",
+    "GC.FlowCircuits.MonCircuit.true_not_losing",
+    "GC.FlowCircuits.MonCircuit.rank_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

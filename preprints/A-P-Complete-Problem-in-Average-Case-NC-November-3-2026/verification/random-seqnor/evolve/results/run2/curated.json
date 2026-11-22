@@ -1,0 +1,242 @@
+[
+ {
+  "genome": {
+   "engine": "bdd",
+   "S": 32,
+   "VMAX": 16,
+   "order": 4,
+   "maxsub": 0
+  },
+  "fit": 0.3365,
+  "fam": {
+   "emb-w2": {
+    "slope": 0.672,
+    "rounds": [
+     10,
+     22,
+     66
+    ]
+   },
+   "emb-w8": {
+    "slope": 0.423,
+    "rounds": [
+     7,
+     11,
+     23
+    ]
+   },
+   "emb-wsqrt": {
+    "slope": 0.226,
+    "rounds": [
+     9,
+     11,
+     17
+    ]
+   },
+   "emb-rand": {
+    "slope": 0.131,
+    "rounds": [
+     9,
+     11,
+     13
+    ]
+   },
+   "block32": {
+    "slope": 0.962,
+    "rounds": [
+     36,
+     132,
+     519
+    ]
+   },
+   "lin2": {
+    "slope": 0.135,
+    "rounds": [
+     11,
+     13,
+     16
+    ]
+   },
+   "uniform": {
+    "slope": 0.126,
+    "rounds": [
+     12,
+     15,
+     17
+    ]
+   },
+   "emb1-w2": {
+    "slope": 0.112,
+    "rounds": [
+     11,
+     13,
+     15
+    ]
+   },
+   "emb1-w4": {
+    "slope": 0.112,
+    "rounds": [
+     11,
+     13,
+     15
+    ]
+   },
+   "emb1-w8": {
+    "slope": 0.5,
+    "rounds": [
+     12,
+     17,
+     48
+    ]
+   },
+   "block8": {
+    "slope": 0.066,
+    "rounds": [
+     10,
+     10,
+     12
+    ]
+   },
+   "block32@0.3": {
+    "slope": 0.625,
+    "rounds": [
+     20,
+     53,
+     113
+    ]
+   },
+   "emb1-w4@0.1": {
+    "slope": 0.233,
+    "rounds": [
+     11,
+     17,
+     21
+    ]
+   }
+  },
+  "err": 0,
+  "secs": 27,
+  "gen": 1
+ },
+ {
+  "genome": {
+   "engine": "tt",
+   "K": 10,
+   "orders": "4",
+   "maxsub": 0,
+   "rho": 0,
+   "TL": 1,
+   "trysimp": 0
+  },
+  "fit": 0.3684,
+  "fam": {
+   "emb-w2": {
+    "slope": 0.631,
+    "rounds": [
+     9,
+     18,
+     53
+    ]
+   },
+   "emb-w8": {
+    "slope": 0.411,
+    "rounds": [
+     6,
+     10,
+     19
+    ]
+   },
+   "emb-wsqrt": {
+    "slope": 0.224,
+    "rounds": [
+     8,
+     10,
+     15
+    ]
+   },
+   "emb-rand": {
+    "slope": 0.102,
+    "rounds": [
+     9,
+     10,
+     12
+    ]
+   },
+   "block32": {
+    "slope": 0.946,
+    "rounds": [
+     29,
+     100,
+     399
+    ]
+   },
+   "lin2": {
+    "slope": 0.146,
+    "rounds": [
+     10,
+     12,
+     15
+    ]
+   },
+   "uniform": {
+    "slope": 0.112,
+    "rounds": [
+     11,
+     13,
+     15
+    ]
+   },
+   "emb1-w2": {
+    "slope": 0.121,
+    "rounds": [
+     10,
+     12,
+     14
+    ]
+   },
+   "emb1-w4": {
+    "slope": 0.146,
+    "rounds": [
+     10,
+     13,
+     15
+    ]
+   },
+   "emb1-w8": {
+    "slope": 0.652,
+    "rounds": [
+     11,
+     22,
+     67
+    ]
+   },
+   "block8": {
+    "slope": 0.072,
+    "rounds": [
+     9,
+     10,
+     11
+    ]
+   },
+   "block32@0.3": {
+    "slope": 0.613,
+    "rounds": [
+     17,
+     42,
+     93
+    ]
+   },
+   "emb1-w4@0.1": {
+    "slope": 0.197,
+    "rounds": [
+     11,
+     15,
+     19
+    ]
+   }
+  },
+  "err": 0,
+  "secs": 9,
+  "gen": 1
+ }
+]

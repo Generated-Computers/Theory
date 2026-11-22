@@ -1,0 +1,23 @@
+{
+  "challenge_module": "ComparatorChallenges.TwoPagesSufficeForPCompleteness",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.circuit_two_pages",
+    "GC.SeqNORNormalForms.serpentine_two_pages",
+    "GC.SeqNORNormalForms.okhotin_correct",
+    "GC.SeqNORNormalForms.okhotin_no_spine",
+    "GC.SeqNORNormalForms.run_slotProg",
+    "GC.SeqNORNormalForms.gadget_values",
+    "GC.SeqNORNormalForms.gadget_reads",
+    "GC.SeqNORNormalForms.nor_only_monotone",
+    "GC.SeqNORNormalForms.nor_array_planar",
+    "GC.SeqNORNormalForms.basic_facts"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

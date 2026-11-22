@@ -1,0 +1,33 @@
+emb-w2_1024.bin            n=991    L0=32   ok=True missing=0 leaves=31 levels=5 maxmap=2286 nodes=17873 rounds=74
+emb-w8_1024.bin            n=991    L0=32   ok=True missing=0 leaves=31 levels=5 maxmap=170 nodes=3635 rounds=74
+block32_16384.bin          n=16384  L0=32   ok=False why=node cap at level 1 nodes=2001639 maxmap=18389
+emb-w8_4096.bin            n=4141   L0=32   ok=True missing=0 leaves=130 levels=8 maxmap=41547 nodes=245233 rounds=80
+emb1-w8_1024.bin           n=1025   L0=32   ok=True missing=0 leaves=33 levels=6 maxmap=215 nodes=7885 rounds=76
+emb1-w8_4096.bin           n=4097   L0=32   ok=True missing=0 leaves=129 levels=8 maxmap=532 nodes=38533 rounds=80
+emb1-w8_16384.bin          n=16385  L0=32   ok=True missing=0 leaves=513 levels=10 maxmap=863 nodes=216365 rounds=84
+block32_1024.bin           n=1024   L0=32   ok=False why=node cap at level 3 nodes=2579238 maxmap=23658
+block32_4096.bin           n=4096   L0=32   ok=False why=node cap at level 2 nodes=2767370 maxmap=59251
+emb-w2_4096.bin            n=4141   L0=32   ok=False why=node cap at level 6 nodes=2837848 maxmap=13395
+emb-wsqrt_1024.bin         n=991    L0=32   ok=True missing=0 leaves=31 levels=5 maxmap=958 nodes=10523 rounds=74
+block32@0.3_4096.bin       n=4096   L0=32   ok=False why=node cap at level 1 nodes=2129652 maxmap=66662
+emb-w2_16384.bin           n=16381  L0=32   ok=False why=node cap at level 5 nodes=3066870 maxmap=26223
+block8_1024.bin            n=1024   L0=32   ok=True missing=0 leaves=32 levels=5 maxmap=46 nodes=3610 rounds=74
+block8_4096.bin            n=4096   L0=32   ok=True missing=0 leaves=128 levels=7 maxmap=117 nodes=12997 rounds=78
+block8_16384.bin           n=16384  L0=32   ok=True missing=0 leaves=512 levels=9 maxmap=208 nodes=57856 rounds=82
+emb1-w4_1024.bin           n=1025   L0=32   ok=True missing=0 leaves=33 levels=6 maxmap=74 nodes=4151 rounds=76
+emb1-w4_4096.bin           n=4097   L0=32   ok=True missing=0 leaves=129 levels=8 maxmap=173 nodes=20900 rounds=80
+emb1-w4_16384.bin          n=16385  L0=32   ok=True missing=0 leaves=513 levels=10 maxmap=317 nodes=83234 rounds=84
+rev-w4_1024.bin            n=1037   L0=32   ok=True missing=0 leaves=33 levels=6 maxmap=169 nodes=5927 rounds=76
+block32@0.3_16384.bin      n=16384  L0=32   ok=False why=node cap at level 1 nodes=2044861 maxmap=83168
+rev-w4_4096.bin            n=4121   L0=32   ok=True missing=0 leaves=129 levels=8 maxmap=21425 nodes=116990 rounds=80
+rev-w8_1024.bin            n=1033   L0=32   ok=True missing=0 leaves=33 levels=6 maxmap=237 nodes=5458 rounds=76
+block32@0.3_1024.bin       n=1024   L0=32   ok=False why=node cap at level 2 nodes=3684189 maxmap=167070
+rev-w8_4096.bin            n=4125   L0=32   ok=True missing=0 leaves=129 levels=8 maxmap=44461 nodes=1766187 rounds=80
+rev-w12_1024.bin           n=1033   L0=32   ok=True missing=0 leaves=33 levels=6 maxmap=1834 nodes=9298 rounds=76
+rev-w12_4096.bin           n=4113   L0=32   ok=True missing=0 leaves=129 levels=8 maxmap=22344 nodes=426106 rounds=80
+rev-w12_16384.bin          n=16401  L0=32   ok=False why=node cap at level 5 nodes=2214043 maxmap=77840
+emb-wsqrt_4096.bin         n=4141   L0=32   ok=False why=node cap at level 6 nodes=5576620 maxmap=2216370
+rev-w8_16384.bin           n=16397  L0=32   ok=False why=node cap at level 6 nodes=9259244 maxmap=193770
+emb-wsqrt_16384.bin        n=16381  L0=32   ok=False why=node cap at level 6 nodes=6036016 maxmap=2445209
+rev-w4_16384.bin           n=16409  L0=32   ok=False why=node cap at level 7 nodes=22256132 maxmap=1906100
+emb-w8_16384.bin           n=16381  L0=32   ok=False why=node cap at level 6 nodes=10451436 maxmap=3365647

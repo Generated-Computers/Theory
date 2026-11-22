@@ -1,0 +1,142 @@
+# KP (kp) vs relevance variant (kprd) vs Newton; mean/max rounds over 3 smoothings, seed 1
+kp     spread64  n=2^12 eps=0.50 mean=    54.7 max=    57
+kprd   spread64  n=2^12 eps=0.50 mean=    37.3 max=    39
+kp     spread64  n=2^16 eps=0.50 mean=   711.7 max=   717
+kprd   spread64  n=2^16 eps=0.50 mean=   161.0 max=   171
+kp     spread64  n=2^20 eps=0.50 mean=  9483.3 max=  9552
+kprd   spread64  n=2^20 eps=0.50 mean=   334.7 max=   345
+newton spread64  n=2^20 eps=0.50 mean=    61.3 max=    63
+kp     spread64  n=2^12 eps=0.60 mean=    52.7 max=    54
+kprd   spread64  n=2^12 eps=0.60 mean=    31.3 max=    34
+kp     spread64  n=2^16 eps=0.60 mean=   370.7 max=   379
+kprd   spread64  n=2^16 eps=0.60 mean=    92.3 max=   101
+kp     spread64  n=2^20 eps=0.60 mean=  1724.3 max=  1842
+kprd   spread64  n=2^20 eps=0.60 mean=   168.3 max=   172
+newton spread64  n=2^20 eps=0.60 mean=    38.3 max=    42
+kp     log       n=2^12 eps=0.50 mean=   218.3 max=   231
+kprd   log       n=2^12 eps=0.50 mean=    68.3 max=    76
+kp     log       n=2^16 eps=0.50 mean=   807.0 max=   914
+kprd   log       n=2^16 eps=0.50 mean=   139.3 max=   148
+kp     log       n=2^20 eps=0.50 mean=  1950.3 max=  2067
+kprd   log       n=2^20 eps=0.50 mean=   206.7 max=   211
+newton log       n=2^20 eps=0.50 mean=    72.3 max=    74
+kp     log       n=2^12 eps=0.60 mean=   152.0 max=   157
+kprd   log       n=2^12 eps=0.60 mean=    53.7 max=    57
+kp     log       n=2^16 eps=0.60 mean=   361.7 max=   376
+kprd   log       n=2^16 eps=0.60 mean=   107.3 max=   117
+kp     log       n=2^20 eps=0.60 mean=   684.7 max=   711
+kprd   log       n=2^20 eps=0.60 mean=   146.0 max=   152
+newton log       n=2^20 eps=0.60 mean=    50.7 max=    52
+kp     lgu       n=2^12 eps=0.50 mean=    80.3 max=    88
+kprd   lgu       n=2^12 eps=0.50 mean=    49.3 max=    52
+kp     lgu       n=2^16 eps=0.50 mean=   276.7 max=   293
+kprd   lgu       n=2^16 eps=0.50 mean=   101.0 max=   107
+kp     lgu       n=2^20 eps=0.50 mean=   787.7 max=   838
+kprd   lgu       n=2^20 eps=0.50 mean=   165.0 max=   174
+newton lgu       n=2^20 eps=0.50 mean=    47.7 max=    49
+kp     lgu       n=2^12 eps=0.60 mean=    69.7 max=    78
+kprd   lgu       n=2^12 eps=0.60 mean=    41.7 max=    44
+kp     lgu       n=2^16 eps=0.60 mean=   182.0 max=   188
+kprd   lgu       n=2^16 eps=0.60 mean=    79.7 max=    82
+kp     lgu       n=2^20 eps=0.60 mean=   364.0 max=   368
+kprd   lgu       n=2^20 eps=0.60 mean=   121.0 max=   122
+newton lgu       n=2^20 eps=0.60 mean=    37.0 max=    40
+kp     im2       n=2^12 eps=0.50 mean=   186.3 max=   190
+kprd   im2       n=2^12 eps=0.50 mean=   123.0 max=   141
+kp     im2       n=2^16 eps=0.50 mean=   353.3 max=   360
+kprd   im2       n=2^16 eps=0.50 mean=   215.3 max=   228
+kp     im2       n=2^20 eps=0.50 mean=   596.0 max=   624
+kprd   im2       n=2^20 eps=0.50 mean=   340.7 max=   363
+newton im2       n=2^20 eps=0.50 mean=   206.7 max=   220
+kp     im2       n=2^12 eps=0.60 mean=   113.0 max=   121
+kprd   im2       n=2^12 eps=0.60 mean=    75.0 max=    87
+kp     im2       n=2^16 eps=0.60 mean=   218.3 max=   233
+kprd   im2       n=2^16 eps=0.60 mean=   130.3 max=   143
+kp     im2       n=2^20 eps=0.60 mean=   338.3 max=   353
+kprd   im2       n=2^20 eps=0.60 mean=   193.3 max=   198
+newton im2       n=2^20 eps=0.60 mean=   118.3 max=   126
+# greedy adversarial bases: built against the algorithm named, trained on 24 smoothings, tested on 6 fresh ones
+greedy-kp n=2^12 eps=0.50 train=508.3 test-mean=185.3 test-max=226
+greedy-kpr n=2^12 eps=0.50 train=316.3 test-mean=84.5 test-max=89
+greedy-kp n=2^14 eps=0.50 train=1673.8 test-mean=423.8 test-max=468
+greedy-kpr n=2^14 eps=0.50 train=917.8 test-mean=141.8 test-max=158
+greedy-kp n=2^16 eps=0.50 train=5931.6 test-mean=836.2 test-max=951
+greedy-kpr n=2^16 eps=0.50 train=2837.6 test-mean=210.3 test-max=227
+greedy-kp n=2^12 eps=0.60 train=327.4 test-mean=134.5 test-max=178
+greedy-kpr n=2^12 eps=0.60 train=198.2 test-mean=62.3 test-max=68
+greedy-kp n=2^14 eps=0.60 train=963.0 test-mean=236.3 test-max=264
+greedy-kpr n=2^14 eps=0.60 train=500.5 test-mean=84.8 test-max=94
+greedy-kp n=2^16 eps=0.60 train=2968.5 test-mean=423.0 test-max=457
+greedy-kpr n=2^16 eps=0.60 train=1020.5 test-mean=116.2 test-max=122
+greedy-kp n=2^12 eps=0.70 train=219.2 test-mean=76.3 test-max=94
+greedy-kpr n=2^12 eps=0.70 train=132.6 test-mean=45.0 test-max=49
+greedy-kp n=2^14 eps=0.70 train=563.6 test-mean=130.8 test-max=157
+greedy-kpr n=2^14 eps=0.70 train=271.0 test-mean=64.2 test-max=78
+greedy-kp n=2^16 eps=0.70 train=1327.1 test-mean=184.0 test-max=208
+greedy-kpr n=2^16 eps=0.70 train=551.2 test-mean=77.3 test-max=95
+# relevance variant near its empirical threshold, spread bases, 3 smoothings, seed 4
+kprd   spread16  n=2^14 eps=0.40 mean=   251.0 max=   273
+kprd   spread16  n=2^18 eps=0.40 mean=   779.0 max=   811
+kprd   spread16  n=2^22 eps=0.40 mean=  1357.3 max=  1543
+kprd   spread16  n=2^14 eps=0.45 mean=   166.3 max=   188
+kprd   spread16  n=2^18 eps=0.45 mean=   426.0 max=   441
+kprd   spread16  n=2^22 eps=0.45 mean=   709.0 max=   719
+kprd   spread16  n=2^14 eps=0.50 mean=   126.0 max=   135
+kprd   spread16  n=2^18 eps=0.50 mean=   251.7 max=   274
+kprd   spread16  n=2^22 eps=0.50 mean=   420.3 max=   431
+kprd   spread16  n=2^14 eps=0.55 mean=    84.3 max=    89
+kprd   spread16  n=2^18 eps=0.55 mean=   181.3 max=   198
+kprd   spread16  n=2^22 eps=0.55 mean=   292.7 max=   301
+kprd   spread64  n=2^14 eps=0.40 mean=   137.0 max=   145
+kprd   spread64  n=2^18 eps=0.40 mean=   801.0 max=   816
+kprd   spread64  n=2^22 eps=0.40 mean=  2196.7 max=  2227
+kprd   spread64  n=2^14 eps=0.45 mean=   117.0 max=   124
+kprd   spread64  n=2^18 eps=0.45 mean=   411.0 max=   468
+kprd   spread64  n=2^22 eps=0.45 mean=   802.0 max=   829
+kprd   spread64  n=2^14 eps=0.50 mean=    87.7 max=    94
+kprd   spread64  n=2^18 eps=0.50 mean=   228.3 max=   233
+kprd   spread64  n=2^22 eps=0.50 mean=   422.7 max=   439
+kprd   spread64  n=2^14 eps=0.55 mean=    72.7 max=    84
+kprd   spread64  n=2^18 eps=0.55 mean=   167.3 max=   186
+kprd   spread64  n=2^22 eps=0.55 mean=   262.3 max=   269
+kprd   spread256 n=2^14 eps=0.40 mean=    47.7 max=    49
+kprd   spread256 n=2^18 eps=0.40 mean=   510.3 max=   532
+kprd   spread256 n=2^22 eps=0.40 mean=  2579.3 max=  2714
+kprd   spread256 n=2^14 eps=0.45 mean=    49.0 max=    51
+kprd   spread256 n=2^18 eps=0.45 mean=   294.3 max=   306
+kprd   spread256 n=2^22 eps=0.45 mean=   768.0 max=   798
+kprd   spread256 n=2^14 eps=0.50 mean=    43.7 max=    44
+kprd   spread256 n=2^18 eps=0.50 mean=   185.3 max=   213
+kprd   spread256 n=2^22 eps=0.50 mean=   370.7 max=   390
+kprd   spread256 n=2^14 eps=0.55 mean=    42.3 max=    45
+kprd   spread256 n=2^18 eps=0.55 mean=   127.0 max=   141
+kprd   spread256 n=2^22 eps=0.55 mean=   243.0 max=   253
+kprd   spread1024 n=2^14 eps=0.40 mean=    18.3 max=    20
+kprd   spread1024 n=2^18 eps=0.40 mean=   178.0 max=   180
+kprd   spread1024 n=2^22 eps=0.40 mean=  1571.3 max=  1623
+kprd   spread1024 n=2^14 eps=0.45 mean=    19.0 max=    20
+kprd   spread1024 n=2^18 eps=0.45 mean=   138.0 max=   141
+kprd   spread1024 n=2^22 eps=0.45 mean=   562.3 max=   581
+kprd   spread1024 n=2^14 eps=0.50 mean=    20.0 max=    21
+kprd   spread1024 n=2^18 eps=0.50 mean=   115.3 max=   124
+kprd   spread1024 n=2^22 eps=0.50 mean=   292.3 max=   304
+kprd   spread1024 n=2^14 eps=0.55 mean=    20.7 max=    23
+kprd   spread1024 n=2^18 eps=0.55 mean=    94.3 max=   103
+kprd   spread1024 n=2^22 eps=0.55 mean=   203.7 max=   219
+# cross-check: direct simulation of the relevance-pruned iteration (kpr) against the O(n) depth (kprd)
+agree spread64 eps=0.5 n=2^12 mean= 37.3
+agree spread64 eps=0.5 n=2^16 mean= 161.0
+agree spread64 eps=0.6 n=2^12 mean= 31.3
+agree spread64 eps=0.6 n=2^16 mean= 92.3
+agree log eps=0.5 n=2^12 mean= 68.3
+agree log eps=0.5 n=2^16 mean= 139.3
+agree log eps=0.6 n=2^12 mean= 53.7
+agree log eps=0.6 n=2^16 mean= 107.3
+agree lgu eps=0.5 n=2^12 mean= 49.3
+agree lgu eps=0.5 n=2^16 mean= 101.0
+agree lgu eps=0.6 n=2^12 mean= 41.7
+agree lgu eps=0.6 n=2^16 mean= 79.7
+agree im2 eps=0.5 n=2^12 mean= 123.0
+agree im2 eps=0.5 n=2^16 mean= 215.3
+agree im2 eps=0.6 n=2^12 mean= 75.0
+agree im2 eps=0.6 n=2^16 mean= 130.3

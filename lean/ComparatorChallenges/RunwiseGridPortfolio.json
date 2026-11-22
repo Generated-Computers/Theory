@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.RunwiseGridPortfolio",
+  "solution_module": "GC.Combinatorics.GridCompilers.Main",
+  "theorem_names": [
+    "GC.GridCompilers.portfolio_isSome_iff",
+    "GC.GridCompilers.portfolio_sound",
+    "GC.GridCompilers.gamma_ge_min_segments",
+    "GC.GridCompilers.gamma_twoBandCells",
+    "GC.GridCompilers.gamma_common_core"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

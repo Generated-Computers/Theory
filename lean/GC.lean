@@ -1,0 +1,11 @@
+import GC.Combinatorics.GridCompilers.Main
+import GC.Computability.NewtonStrahler.Main
+import GC.Computability.Portals.Main
+import GC.Computability.RandomSeqNOR.Main
+import GC.Computability.SCLadder.Main
+import GC.Computability.Semisort.Main
+import GC.Computability.SeqNORNormalForms.Main
+import GC.Computability.StructuralCompilers.Main
+import GC.Computability.Tabulation.Main
+import GC.GroupTheory.A5Programs.Main
+import GC.Optimization.FlowCircuits.Main

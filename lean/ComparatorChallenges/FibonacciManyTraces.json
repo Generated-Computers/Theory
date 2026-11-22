@@ -1,0 +1,25 @@
+{
+  "challenge_module": "ComparatorChallenges.FibonacciManyTraces",
+  "solution_module": "GC.Combinatorics.GridCompilers.Main",
+  "theorem_names": [
+    "GC.GridCompilers.census_mem_iff",
+    "GC.GridCompilers.census_card",
+    "GC.GridCompilers.fibre_eq_piFinset",
+    "GC.GridCompilers.card_A",
+    "GC.GridCompilers.sum_prod_card_A",
+    "GC.GridCompilers.causal_projection",
+    "GC.GridCompilers.card_le_two_pow_card_D_inter_DTr",
+    "GC.GridCompilers.card_le_prod_varSet",
+    "GC.GridCompilers.card_le_fib",
+    "GC.GridCompilers.deterministic_capacity_le",
+    "GC.GridCompilers.deterministic_capacity_attained",
+    "GC.GridCompilers.sum_census_card"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

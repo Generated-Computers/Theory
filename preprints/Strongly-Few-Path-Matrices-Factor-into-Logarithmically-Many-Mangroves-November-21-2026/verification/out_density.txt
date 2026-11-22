@@ -1,0 +1,19 @@
+n = 2: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 1, 1, 1)]
+    largest k with ex_sf < n(n-1)/2: 0; ex_sf(n, 2^(n-2)) = 1
+n = 3: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 2, 2, 2.25), (2, 3, 3, 3)]
+    largest k with ex_sf < n(n-1)/2: 1; ex_sf(n, 2^(n-2)) = 3
+n = 4: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 4, 4, 4.0), (2, 5, 5, 6), (3, 5, 5, 6)]
+    largest k with ex_sf < n(n-1)/2: 3; ex_sf(n, 2^(n-2)) = 6
+n = 5: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 6, 6, 6.25), (2, 8, 8, 10), (3, 8, 8, 10), (4, 9, 7, 10)]
+    largest k with ex_sf < n(n-1)/2: 7; ex_sf(n, 2^(n-2)) = 10
+n = 6: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 9, 9, 9.0), (2, 11, 11, 13.5), (3, 12, 12, 15), (4, 13, 11, 15), (5, 13, 9, 15)]
+    largest k with ex_sf < n(n-1)/2: 15; ex_sf(n, 2^(n-2)) = 15
+n = 7: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 12, 12, 12.25), (2, 15, 15, 17.5), (3, 16, 16, 21), (4, 17, 16, 21), (5, 17, 14, 21), (6, 18, 11, 21)]
+    largest k with ex_sf < n(n-1)/2: 31; ex_sf(n, 2^(n-2)) = 21
+all checks passed

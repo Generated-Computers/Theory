@@ -1,0 +1,2190 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+# Catalog of papers with a formalized main result. Paths are relative to lean/.
+version: "v0.4"
+
+project:
+  name: "Generated Computers mathematics repository"
+  description: "Lean formalizations accompanying a mathematics manuscript collection."
+  authors: ["Generated Computers"]
+
+sources:
+  - title: "A Gap Theorem for P versus BPNC"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-Gap-Theorem-for-P-versus-BPNC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A P-Complete Problem in Average-Case AC¹ and SC²"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-P-Complete-Problem-in-Average-Case-AC1-and-SC2-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A P-Complete Problem in Average-Case NC"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-P-Complete-Problem-in-Average-Case-NC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A P-Complete Problem in Square-Root Space"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-P-Complete-Problem-in-Square-Root-Space-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A Pebbling Barrier for Clone-and-Decompose Algorithms"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-Pebbling-Barrier-for-Clone-and-Decompose-Algorithms-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A Reset Normal Form for a P-Complete Problem"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-Reset-Normal-Form-for-a-P-Complete-Problem-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A Runwise Portfolio of NC Grid Compilers"
+    authors: ["Generated Computers"]
+    id: ../preprints/A-Runwise-Portfolio-of-NC-Grid-Compilers-November-3-2026/paper.pdf
+    type: article
+
+  - title: "An SCᵏ-Complete Problem with an NC³ Fragment"
+    authors: ["Generated Computers"]
+    id: ../preprints/An-SC-k-Complete-Problem-with-an-NC-3-Fragment-November-3-2026/paper.pdf
+    type: article
+
+  - title: "A₅ Programs: One Entry in NC², Two Entries P-Complete"
+    authors: ["Generated Computers"]
+    id: ../preprints/A5-Programs-One-Entry-in-NC2-Two-Entries-P-Complete-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Barrington Gadgets Meet Strahler Rank"
+    authors: ["Generated Computers"]
+    id: ../preprints/Barrington-Gadgets-Meet-Strahler-Rank-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Batching First Failures Cannot Beat One Prefix"
+    authors: ["Generated Computers"]
+    id: ../preprints/Batching-First-Failures-Cannot-Beat-One-Prefix-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Blockwise Guessing Puts Low-Defect Sequential NOR in NC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Blockwise-Guessing-Puts-Low-Defect-Sequential-NOR-in-NC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Circuit Evaluation in Depth Governed by Catalyst Height"
+    authors: ["Generated Computers"]
+    id: ../preprints/Circuit-Evaluation-in-Depth-Governed-by-Catalyst-Height-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Circuit LPs Need Linear Precision"
+    authors: ["Generated Computers"]
+    id: ../preprints/Circuit-LPs-Need-Linear-Precision-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Constant-Frontier Computations Are in NC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Constant-Frontier-Computations-Are-in-NC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Control Observability Erases Payload in Trace Generation"
+    authors: ["Generated Computers"]
+    id: ../preprints/Control-Observability-Erases-Payload-in-Trace-Generation-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Every Hypergraph Is an A₅ Proof-Support System"
+    authors: ["Generated Computers"]
+    id: ../preprints/Every-Hypergraph-Is-an-A5-Proof-Support-System-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Exact Cut Contraction for P-Complete Sequential Circuits"
+    authors: ["Generated Computers"]
+    id: ../preprints/Exact-Cut-Contraction-for-P-Complete-Sequential-Circuits-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Exponential-State Portals with Constant-Depth Transfer"
+    authors: ["Generated Computers"]
+    id: ../preprints/Exponential-State-Portals-with-Constant-Depth-Transfer-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Fanout Height Bounds Parallel Evaluation Depth"
+    authors: ["Generated Computers"]
+    id: ../preprints/Fanout-Height-Bounds-Parallel-Evaluation-Depth-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Few Disjoint Cycles Give Sublinear-Depth Circuit Evaluation"
+    authors: ["Generated Computers"]
+    id: ../preprints/Few-Disjoint-Cycles-Give-Sublinear-Depth-Circuit-Evaluation-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Few Long Paths Put Sequential NOR in QuasiNC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Few-Long-Paths-Put-Sequential-NOR-in-QuasiNC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Few Nonlinear Gates per Path Put Circuits in NC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Few-Nonlinear-Gates-per-Path-Put-Circuits-in-NC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Few Union Profiles Put Circuit Evaluation in NC²"
+    authors: ["Generated Computers"]
+    id: ../preprints/Few-Union-Profiles-Put-Circuit-Evaluation-in-NC2-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Finding Pigeonhole Collisions in A₅ Is P-Complete"
+    authors: ["Generated Computers"]
+    id: ../preprints/Finding-Pigeonhole-Collisions-in-A5-Is-P-Complete-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Four Barriers to Speeding Up Circuit Evaluation"
+    authors: ["Generated Computers"]
+    id: ../preprints/Four-Barriers-to-Speeding-Up-Circuit-Evaluation-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Fractional Covers Do Not Certify Sequential Hardness"
+    authors: ["Generated Computers"]
+    id: ../preprints/Fractional-Covers-Do-Not-Certify-Sequential-Hardness-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Homogeneous Sequential NOR Grids Lie in NC¹"
+    authors: ["Generated Computers"]
+    id: ../preprints/Homogeneous-Sequential-NOR-Grids-Lie-in-NC1-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Horn Saturation in Strahler-Rank Reachability Rounds"
+    authors: ["Generated Computers"]
+    id: ../preprints/Horn-Saturation-in-Strahler-Rank-Reachability-Rounds-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Inner Product Has Affine-Cover Number 2ᵐ"
+    authors: ["Generated Computers"]
+    id: ../preprints/Inner-Product-Has-Affine-Cover-Number-2-m-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Knowledge Compilation Gives NC Fragments of SC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Knowledge-Compilation-Gives-NC-Fragments-of-SC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Logarithmic Feedback in SC² Lies in NC²"
+    authors: ["Generated Computers"]
+    id: ../preprints/Logarithmic-Feedback-in-SC2-Lies-in-NC2-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Menger's Theorem Inside One Strahler Layer"
+    authors: ["Generated Computers"]
+    id: ../preprints/Mengers-Theorem-Inside-One-Strahler-Layer-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Min-Cost Flow Has No Read-Only Comparator"
+    authors: ["Generated Computers"]
+    id: ../preprints/Min-Cost-Flow-Has-No-Read-Only-Comparator-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Newton's Method Evaluates Circuits in Strahler-Rank Rounds"
+    authors: ["Generated Computers"]
+    id: ../preprints/Newtons-Method-Evaluates-Circuits-in-Strahler-Rank-Rounds-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Nineteen Orbits Block Interpolation for A₅ Circuits"
+    authors: ["Generated Computers"]
+    id: ../preprints/Nineteen-Orbits-Block-Interpolation-for-A5-Circuits-November-3-2026/paper.pdf
+    type: article
+
+  - title: "NOR Shift Registers Are Tiling Rotations"
+    authors: ["Generated Computers"]
+    id: ../preprints/NOR-Shift-Registers-Are-Tiling-Rotations-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Opening A₅ Cycles Leaves a P-Complete Coefficient"
+    authors: ["Generated Computers"]
+    id: ../preprints/Opening-A5-Cycles-Leaves-a-P-Complete-Coefficient-November-3-2026/paper.pdf
+    type: article
+
+  - title: "P-Complete A₅ Circuits Invisible to Solvable Groups"
+    authors: ["Generated Computers"]
+    id: ../preprints/P-Complete-A5-Circuits-Invisible-to-Solvable-Groups-November-3-2026/paper.pdf
+    type: article
+
+  - title: "P-Complete Equal-Flow Programs with Capacities at Most Two"
+    authors: ["Generated Computers"]
+    id: ../preprints/P-Complete-Equal-Flow-Programs-with-Capacities-at-Most-Two-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Parallel Simulation Where Only Nested Reads Cost Depth"
+    authors: ["Generated Computers"]
+    id: ../preprints/Parallel-Simulation-Where-Only-Nested-Reads-Cost-Depth-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Parameterized NC Compilers for a P-Complete Problem"
+    authors: ["Generated Computers"]
+    id: ../preprints/Parameterized-NC-Compilers-for-a-P-Complete-Problem-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Prefix OR Defeats Treewidth and Curvature Measures"
+    authors: ["Generated Computers"]
+    id: ../preprints/Prefix-OR-Defeats-Treewidth-and-Curvature-Measures-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Segment Cuts in NC² and a Unique Games Barrier"
+    authors: ["Generated Computers"]
+    id: ../preprints/Segment-Cuts-in-NC2-and-a-Unique-Games-Barrier-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Separator Speedups Would Put MCVP in NC"
+    authors: ["Generated Computers"]
+    id: ../preprints/Separator-Speedups-Would-Put-MCVP-in-NC-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Sequential NOR Has Exactly Fibonacci-Many Traces"
+    authors: ["Generated Computers"]
+    id: ../preprints/Sequential-NOR-Has-Exactly-Fibonacci-Many-Traces-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Sequential NOR Is Circuit Evaluation on Its Binary Core"
+    authors: ["Generated Computers"]
+    id: ../preprints/Sequential-NOR-Is-Circuit-Evaluation-on-Its-Binary-Core-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Small Noise Defeats Two Natural Parallel Iterations"
+    authors: ["Generated Computers"]
+    id: ../preprints/Small-Noise-Defeats-Two-Natural-Parallel-Iterations-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Stable Colors Do Not Certify Symmetry"
+    authors: ["Generated Computers"]
+    id: ../preprints/Stable-Colors-Do-Not-Certify-Symmetry-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Stable Semisort Is Exactly as Hard as Padded Sorting"
+    authors: ["Generated Computers"]
+    id: ../preprints/Stable-Semisort-Is-Exactly-as-Hard-as-Padded-Sorting-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Strict P-Completeness Reduces to the Control Trace"
+    authors: ["Generated Computers"]
+    id: ../preprints/Strict-P-Completeness-Reduces-to-the-Control-Trace-November-3-2026/paper.pdf
+    type: article
+
+  - title: "The First-Collision Law of Newton's Method over GF(2)"
+    authors: ["Generated Computers"]
+    id: ../preprints/The-First-Collision-Law-of-Newtons-Method-over-GF-2-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Three NC Compilers for Sequential NOR Grids"
+    authors: ["Generated Computers"]
+    id: ../preprints/Three-NC-Compilers-for-Sequential-NOR-Grids-November-3-2026/paper.pdf
+    type: article
+
+  - title: "Two Pages Suffice for P-Completeness"
+    authors: ["Generated Computers"]
+    id: ../preprints/Two-Pages-Suffice-for-P-Completeness-November-3-2026/paper.pdf
+    type: article
+
+  - title: "What Flow Reductions Need for RNC Speedups"
+    authors: ["Generated Computers"]
+    id: ../preprints/What-Flow-Reductions-Need-for-RNC-Speedups-November-3-2026/paper.pdf
+    type: article
+
+related_formalizations:
+  - id: https://github.com/leanprover-community/mathlib4
+    relationship: builds-on
+
+status:
+  scope: "Partial progress. Each family's scope is stated in docs/<family>.md."
+  # Entries use source-qualified declaration names and the files containing them.
+  main_results:
+    - comparator_config: ComparatorChallenges/BatchingFirstFailures.json
+      declaration: GC.Portals.first_failure_validator
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/BatchingFirstFailures.json
+      declaration: GC.Portals.batch_collapse
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/BatchingFirstFailures.json
+      declaration: GC.Portals.blackbox_one_round
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.root_classification
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.desc_correct
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.core_triangular
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.core_system_unique
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.retraction
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BinaryCore.json
+      declaration: GC.SeqNORNormalForms.embed_universal
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BlockwiseGuessing.json
+      declaration: GC.SeqNORNormalForms.cand_prefix_locality
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BlockwiseGuessing.json
+      declaration: GC.SeqNORNormalForms.cand_true_prefix
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BlockwiseGuessing.json
+      declaration: GC.SeqNORNormalForms.unique_valid_branch
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/BlockwiseGuessing.json
+      declaration: GC.SeqNORNormalForms.blockwise_correct
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.CarrierGraph.rounding
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.CarrierGraph.cover_fracFeasible
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.CarrierGraph.integrality_gap_two
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.tightGraph_gap
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.CarrierGraph.weight_le_of_potentials
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.CarrierGraph.heightLE_one_of_sources
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.compiler_round_functional
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.functional_rel_cover
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CatalystHeightCompiler.json
+      declaration: GC.FlowCircuits.twoRegister_height
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.circuitLP_unique
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.fib_precision
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.fibDelta_bounds
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.ladder_det
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.ladder_minor
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.val_true_of_not_losing
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.val_false_of_losing
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.losing_antitone
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.switched_not_losing
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.true_not_losing
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CircuitLPPrecision.json
+      declaration: GC.FlowCircuits.MonCircuit.rank_bound
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.pebbling_projection
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.unfolding_computes
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.grid_pebbling_lower
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.grid_pebbling_upper
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.grid_pebblingPrice
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/CloneAndDecomposePebbling.json
+      declaration: GC.StructuralCompilers.grid_unfolding_pebbling_lower
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.layer_reachable_iff
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.reachable_exact
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.frontier_mono
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.frontier_succ_eq_zero
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.frontier_restart
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.epochEnd_restart
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.epoch_packing
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.epoch_greedy_optimal
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.layer_reachable_iff_le_epochEnd
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.AppendMachine.constant_frontier_trace
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.moving_frame
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.conjExc_moves_iff
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.event_chain_stay
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.event_chain_next
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.conj_cycle_swap
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ConstantFrontier.json
+      declaration: GC.Tabulation.cycle_transposition_traj
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlObservability.json
+      declaration: GC.Portals.AffineMachine.control_observable_sufficiency
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlObservability.json
+      declaration: GC.Portals.ladder_rank
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlObservability.json
+      declaration: GC.Portals.ladder_pred_ne
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlObservability.json
+      declaration: GC.Portals.card_ladderEdges
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.run_ctrl_eq
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.accept_of_ctrlTrace
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.trL_lower
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.regVec_eq
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.dblS_eq
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.dblS_inverse
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.trL_nilpotent
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/ControlTrace.json
+      declaration: GC.Tabulation.RSMachine.payload_reconstruction
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.MonCircuit.nand_normalization
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.nand_polytope
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.forcing
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.MonCircuit.dyadic_elimination
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.MonCircuit.equalFlow_unique
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.cut_bound
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/EqualFlowCapacityTwo.json
+      declaration: GC.FlowCircuits.cut_size_bound
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.internalGate_spec
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.internalGate_strictMono
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.cutRank_eq_card
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.exact_cut_externalization
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.crossing_area_identity
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.exists_heavy_cut
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.padding_counterexample
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.padding_counterexample_nor
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.seqNOR_eq_greedyMIS
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/ExactCutContraction.json
+      declaration: GC.Semisort.jump_rule
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/FanoutHeight.json
+      declaration: GC.Portals.rounds_bound
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/FanoutHeight.json
+      declaration: GC.Portals.hcount_le_card
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/FanoutHeight.json
+      declaration: GC.Portals.seqnor_fanout_set
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/FanoutHeight.json
+      declaration: GC.Portals.seqnor_fanout_height
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/FanoutHeight.json
+      declaration: GC.Portals.search_first_stop_le
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.latin_relations
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.descriptor_comp_pos
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.descriptor_comp_neg
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.descriptor_inv_pos
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.descriptor_inv_neg
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.comp_descriptors
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.cycle_monodromy
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.root_domain_neg
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewDisjointCycles.json
+      declaration: GC.A5Programs.root_domain_pos
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewLongPaths.json
+      declaration: GC.SeqNORNormalForms.path_hitting
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewLongPaths.json
+      declaration: GC.SeqNORNormalForms.packing_sandwich
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewLongPaths.json
+      declaration: GC.SeqNORNormalForms.path_formula
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewNonlinearGates.json
+      declaration: GC.SCLadder.triangular_product_identity
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewNonlinearGates.json
+      declaration: GC.SCLadder.region_solve
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewNonlinearGates.json
+      declaration: GC.SCLadder.DepthCircuit.depth_le_of_ref
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewNonlinearGates.json
+      declaration: GC.SCLadder.DepthCircuit.depth_lt_of_barrier
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.absorbing_elimination
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.profile_composition
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.localRun_root
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.localRun_trueProfile
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.unionClosure_card_le_rows
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.unionClosure_card_le_cols
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.unionClosure_card_le_zeros
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FewUnionProfiles.json
+      declaration: GC.StructuralCompilers.matching_unionClosure_card
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.census_mem_iff
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.census_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.fibre_eq_piFinset
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.card_A
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.sum_prod_card_A
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.causal_projection
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.card_le_two_pow_card_D_inter_DTr
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.card_le_prod_varSet
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.card_le_fib
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.deterministic_capacity_le
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.deterministic_capacity_attained
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FibonacciManyTraces.json
+      declaration: GC.GridCompilers.sum_census_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.jacMul_newtonDir
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.error_identity
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.first_collision_law
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.newton_rounds
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.newton_converges
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.newton_converges_std
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FirstCollisionLaw.json
+      declaration: GC.SeqNORNormalForms.collision_without_active_parent
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.sum_netOut_eq_zero
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.gadget_conservation
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.lasVegas_expected_trials
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.lasVegas_total_probability
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.ledger_exponent
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FlowReductionsRNC.json
+      declaration: GC.FlowCircuits.calibration
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.summary_card_ge
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.cyc_tau_generate
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.observable_dim
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.features_dim_linear
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.features_dim_affine
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.copy_correction_value
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.copy_block_exact_iff
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.copy_multiscale_lower
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.zmod2_mul_self
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.ladder_eval
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.ladder_rank
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.ladder_newton
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FourBarriers.json
+      declaration: GC.Tabulation.ladder_first_exact
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.CarrierGraph.weak_duality
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.CarrierGraph.concentration
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.CarrierGraph.concentration_incomparable
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.factorTwo_example
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.railGraph_load
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/FractionalCoversHardness.json
+      declaration: GC.FlowCircuits.mirage_height
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.AppendMachine.globalOp_eq_prefixComp
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.AppendMachine.globalOp_iterate_exact
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.AppendMachine.globalOp_real
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.AppendMachine.eq_real_of_fixed
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.AppendMachine.stopping_rule
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.copy_real
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.copy_rank
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.copy_rounds
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/GlobalTableIteration.json
+      declaration: GC.Tabulation.copy_first_exact_round
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.active_row_formula
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.active_row_noAdj
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.reset_row_iff
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.reset_row_threshold
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.orientation_example
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.zero_column_iff
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.zero_column_threshold
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.diagonal_collapse
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.diagonal_collapse_iterate
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.slab_cell_copy
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.no_vertical_000
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.transferClass_comp
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HomogeneousNORGrids.json
+      declaration: GC.GridCompilers.card_transferClass_le
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.reachLayer_rankBelow
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.saturate_succ
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.rankBelow_stable
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.derivable_mem_rankLayer
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.hornNewton_rankBelow
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.hornNewton_iterate
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.Deriv.two_pow_rank_le_leaves
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.saturate_eq_derivable_of_leaves
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HornStrahlerLayers.json
+      declaration: GC.NewtonStrahler.BCircuit.truthTable_spec
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/HypergraphA5.json
+      declaration: GC.Portals.selector_exists
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/HypergraphA5.json
+      declaration: GC.Portals.a5_selector
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/HypergraphA5.json
+      declaration: GC.Portals.realization
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/HypergraphA5.json
+      declaration: GC.Portals.star_block_values
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/HypergraphA5.json
+      declaration: GC.Portals.charging
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/InnerProductCover.json
+      declaration: GC.SCLadder.inner_product_affine_cover_number
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/InnerProductCover.json
+      declaration: GC.SCLadder.exact_projection
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/InnerProductCover.json
+      declaration: GC.SCLadder.index_state_lower_bound
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.exists_commutator_A5
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.tower_exists
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.derivedSeries_le_lowerCentralSeries_two_pow
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.shadow_solvable
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.shadow_nilpotent
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.derivedSeries_eq_bot_of_card_lt
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/InvisibleToSolvable.json
+      declaration: GC.A5Programs.deep_core_invisible
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.leaf_pullback
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.leaf_conj
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.conj_iUnion_prod
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.conj_pairwise_disjoint
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.transfer_pullback
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.piece_injective
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.diag_cover_card
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.ordered_equality_states
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.rect_card_le
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.card_ip_eq_one
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/KnowledgeCompilationLadder.json
+      declaration: GC.SCLadder.ip_rect_cover_card
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/LogFeedbackBlock.json
+      declaration: GC.SCLadder.unique_transcript
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/LogFeedbackBlock.json
+      declaration: GC.SCLadder.card_transcripts
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/LogFeedbackBlock.json
+      declaration: GC.SCLadder.transcript_summary_exact
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/LogFeedbackBlock.json
+      declaration: GC.SCLadder.feedback_free_run
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/MengerLayer.json
+      declaration: GC.Portals.HornSystem.rank_layer
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/MengerLayer.json
+      declaration: GC.Portals.HornSystem.lfpRegion_closed
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/MengerLayer.json
+      declaration: GC.Portals.HornSystem.closure_determines_region
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/MengerLayer.json
+      declaration: GC.Portals.side_premise_star
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/MengerLayer.json
+      declaration: GC.Portals.side_premise_star_injective
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.Network.boundary_isMConvex
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.Network.flow_exchange
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.Network.boundary_exchange
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.Network.no_allEqualSensor
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.Network.no_readOnlyComparator
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.crossbar_table
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.oneShot_isLeast
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.no_submodular_nand
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/MinCostFlowNoComparator.json
+      declaration: GC.FlowCircuits.no_submodular_nand_any_polarity
+      file: GC/Optimization/FlowCircuits/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.lagSeq_rows
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.two_sweep_landing
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_proj_tiling
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_orbit
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.nor_periodic
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.nor_lag_sequence_tiling
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.proj_injOn
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.tiling_local
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_conjGate
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_P_idem
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_Q_two
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.sweep_A_two
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.collapse_six
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.nonaffine_iff_norPol
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.norPol_injective
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.gauge_conjugacy
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NORTilingRotation.json
+      declaration: GC.Tabulation.gauge_greedy_optimal
+      file: GC/Computability/Tabulation/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.existsUnique_isValue
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.newton_eq_self_iff
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.det_jacobian
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.error_identity
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.rank_isValidLayering
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.rank_le_of_isValidLayering
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.newton_strahler
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.newton_evaluates
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.newton_evaluates_of_isValidLayering
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.taylor_identity
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.BoolSystem.error_identity
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.BoolSystem.taylor_newton_strahler
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.BoolSystem.taylor_newton_evaluates
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NewtonStrahlerRounds.json
+      declaration: GC.NewtonStrahler.BoolSystem.existsUnique_isValue
+      file: GC/Computability/NewtonStrahler/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.hall_generation
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.census_hot
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.census_cold
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.mirror_word
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.mirror_selectors
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.no_interpolation
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.pow_bijective_iff
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.unitPower_R_bijective_iff
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.unitPower_L_bijective_iff
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/NineteenOrbitsA5.json
+      declaration: GC.A5Programs.fib_update_inverse
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.oneEntry_power
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.thirty_classes
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.dominator_power
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.inv_gate_dominated
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.square_gate_dominated
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OneEntryA5.json
+      declaration: GC.A5Programs.dichotomy
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.cycle_monodromy
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.comp_descriptors
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.hard_coefficient
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.hard_coefficient_unique
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.mixer_cycle
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.mixer_inverse
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.mixerStrip_bijective
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.mixerStrip_no_small_summary
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.hard_coefficient_boolean
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/OpeningCycles.json
+      declaration: GC.A5Programs.nielsen_embedding
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.trueMask_fixed
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.fixedPoint_unique
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.greedy_phase_repair
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.interactionCover_isVertexCover
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.record_unary_outside_cover
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.residual_eq_ancestryProduct
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ParameterizedNCCompilers.json
+      declaration: GC.StructuralCompilers.source_compression_claim_false
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.maurer_rhodes
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.probe_selector_A5
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.collision_determines_value
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.predicate_complete_A5
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.universal_collisions
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.calculus_sound
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.calculus_complete
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PigeonholeCollisionsA5.json
+      declaration: GC.A5Programs.boolean_to_twoGen
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedY_bijective
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.unmask_maskedY
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedY_unmask
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.mixedDeriv_xor_const
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedPrefixOr_prefix
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedPrefixOr_formula
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedPrefixOr_curvature_complete
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.maskedY_zero_mask
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.revPrefix_value
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.revPrefix_minor_model
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.triGrid_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.triGrid_vertexCover_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/PrefixORWidthCounterexamples.json
+      declaration: GC.GridCompilers.triGrid_Krr
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.compPtr_lt
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.smoothKernel_comp
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.smoothLaw_comp
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.smoothing_upset
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.gadget_N
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.gadget_M
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.gadget_M'
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.gadget_N_has_one
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.gadget_M'_has_two_ones
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.cell_step1
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.comp_exact
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.comp_step1
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.embed_step3
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORGap.json
+      declaration: GC.RandomSeqNOR.embed64_ten_iterations
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.trace_eq_lastReset
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.kp_rounds_eq_depth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.kp_success_iff
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.exists_depChain
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.kp_finishes_of_no_long_chain
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.epsK_threshold
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.fixed_point_density
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.epsB_threshold
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORKleenePrefix.json
+      declaration: GC.RandomSeqNOR.varpi_threshold
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.worstPtr_lt
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.err_newton_zero
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.err_newton_of_isNot
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.err_newton_of_not_isNot
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.newton_trace
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.err_newton_eq_zero_of_no_source
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.err_newton_eq_one_of_first_source
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.front_growth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.front_growth_iter
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.newtonIter_congr
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.source_witness
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.newton_strahler
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.exactRounds_le_strahler
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.worst_case_upper
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.worstInst_front
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.exactRounds_worstInst
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.newton_worst_case
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.lexFirstMIS_eq_ones
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORNewton.json
+      declaration: GC.RandomSeqNOR.golden_density_fixed_point
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.mem_anchors
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.lastRelReset_mem_anchors
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kp_rounds_eq_depth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kpr_rounds_eq_relDepth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_le_depth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kp_known_subset_kpr_known
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.depth_one
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.depth_succ_of_isReset
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.depth_succ_of_isNot
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.depth_succ_of_other
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.depth_switch
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_one
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_succ_of_relReset
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_succ_of_irrelReset
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_succ_of_relOther
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_succ_of_other
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.relDepth_switch
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.zones_depth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.zones_depth_of_trace_one
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.overapprox_depth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.zones_relDepth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.zones_relDepth_of_trace_one
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.overapprox_relDepth
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.noTwoZeros_sum_le
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kp_lower_constants_a
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kp_lower_constants_b
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/RandomSeqNORSmallNoise.json
+      declaration: GC.RandomSeqNOR.kp_lower_short_zones
+      file: GC/Computability/RandomSeqNOR/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.reset_normal_form
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.resetOp_fixed
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.resetOp_unique
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.first_disagreement
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.resetOp_iterate_n
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.resetOp_sq_not_monotone
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.event_queue
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/ResetNormalForm.json
+      declaration: GC.SeqNORNormalForms.realizable_traces
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/RunwiseGridPortfolio.json
+      declaration: GC.GridCompilers.portfolio_isSome_iff
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/RunwiseGridPortfolio.json
+      declaration: GC.GridCompilers.portfolio_sound
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/RunwiseGridPortfolio.json
+      declaration: GC.GridCompilers.gamma_ge_min_segments
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/RunwiseGridPortfolio.json
+      declaration: GC.GridCompilers.gamma_twoBandCells
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/RunwiseGridPortfolio.json
+      declaration: GC.GridCompilers.gamma_common_core
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SCkCompleteSPAI.json
+      declaration: GC.SCLadder.BitMachine.toStage_A
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/SCkCompleteSPAI.json
+      declaration: GC.SCLadder.bitMachine_run
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/SCkCompleteSPAI.json
+      declaration: GC.SCLadder.pair_exact
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/SCkCompleteSPAI.json
+      declaration: GC.SCLadder.recompress_exact
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/SCkCompleteSPAI.json
+      declaration: GC.SCLadder.invariant_observation_run
+      file: GC/Computability/SCLadder/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.maximal_packing_bound
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.guardRouter_feasible_lift
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.guardRouter_feasible_project
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.guardRouter_dvd
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.anonymity_scut_one
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SegmentCutsUGBarrier.json
+      declaration: GC.StructuralCompilers.anonymity_class_union
+      file: GC/Computability/StructuralCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.treeHeight_eq_clog
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.constant_lag
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.congestion
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.separator_budget
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.heavy_mul_lt
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.frontier_le
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SeparatorSpeedups.json
+      declaration: GC.Portals.online_transfer_calls
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.surject_instance
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.reset_sets_exact
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.reset_sets_card
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.not_subgraph
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.subdivision_embed
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.exists_round
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.fanout_normalization
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/SquareRootSpace.json
+      declaration: GC.SeqNORNormalForms.fanLen_values
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.frucht_cubic
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.frucht_asymmetric
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.incidence_refinement_stable
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.incidence_rigid
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.rotation_orbits_ge
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.symmetric_shell
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableColors.json
+      declaration: GC.A5Programs.swap_forest
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableSemisortPaddedSorting.json
+      declaration: GC.Semisort.closure_correct
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableSemisortPaddedSorting.json
+      declaration: GC.Semisort.stableSemisort_of_paddedSort
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableSemisortPaddedSorting.json
+      declaration: GC.Semisort.paddedSort_of_stableSemisort
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableSemisortPaddedSorting.json
+      declaration: GC.Semisort.predictionAlignmentError_eq_collisionEnergy
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/StableSemisortPaddedSorting.json
+      declaration: GC.Semisort.density_barrier
+      file: GC/Computability/Semisort/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.full_capacity_portal
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.capacity_switch
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.a5_capacity_switch
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.HornSystem.layerMap_mono
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.HornSystem.layerMap_lt
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.HornSystem.layerMap_iterate
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.newly_derivable_not_monotone
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StatePortals.json
+      declaration: GC.Portals.search_first_stop_le
+      file: GC/Computability/Portals/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.gadget_identities
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.gadgets_correct
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.boolean_to_A5
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.strahler_unfolding
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.strahler_mono
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/StrahlerGadgets.json
+      declaration: GC.A5Programs.quotient_val
+      file: GC/GroupTheory/A5Programs/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.gamma_bounds
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.gamma_alternating
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.rowI_eq
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.rowQ_involutive
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.payload_const
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.index_trace_last
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.onePass_injective
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.card_states_ge
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.summary_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.semigroup_summary_card
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/ThreeNCGridCompilers.json
+      declaration: GC.GridCompilers.matrix_summary_dim
+      file: GC/Combinatorics/GridCompilers/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.circuit_two_pages
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.serpentine_two_pages
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.okhotin_correct
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.okhotin_no_spine
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.run_slotProg
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.gadget_values
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.gadget_reads
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.nor_only_monotone
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.nor_array_planar
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+    - comparator_config: ComparatorChallenges/TwoPagesSufficeForPCompleteness.json
+      declaration: GC.SeqNORNormalForms.basic_facts
+      file: GC/Computability/SeqNORNormalForms/Main.lean
+
+automation:
+  methods:
+    - method: agent
+
+review:
+  status: unchecked
+
+acknowledgements: >-
+  Thank you to the authors of Lean 4, mathlib, Lake and Comparator.

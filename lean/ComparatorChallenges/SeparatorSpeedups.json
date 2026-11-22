@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.SeparatorSpeedups",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.treeHeight_eq_clog",
+    "GC.Portals.constant_lag",
+    "GC.Portals.congestion",
+    "GC.Portals.separator_budget",
+    "GC.Portals.heavy_mul_lt",
+    "GC.Portals.frontier_le",
+    "GC.Portals.online_transfer_calls"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.CatalystHeightCompiler",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.CarrierGraph.rounding",
+    "GC.FlowCircuits.CarrierGraph.cover_fracFeasible",
+    "GC.FlowCircuits.CarrierGraph.integrality_gap_two",
+    "GC.FlowCircuits.tightGraph_gap",
+    "GC.FlowCircuits.CarrierGraph.weight_le_of_potentials",
+    "GC.FlowCircuits.CarrierGraph.heightLE_one_of_sources",
+    "GC.FlowCircuits.compiler_round_functional",
+    "GC.FlowCircuits.functional_rel_cover",
+    "GC.FlowCircuits.twoRegister_height"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

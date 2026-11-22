@@ -1,0 +1,12 @@
+desc B=16  seed=0 live width   8  max map 321  constant from horizon 512
+desc B=16  seed=1 live width  12  max map 184  constant from horizon 2048
+desc B=16  seed=2 live width  10  max map 308  constant from horizon 2048
+desc B=20  seed=0 live width  15  max map 1281  constant from horizon 2048
+desc B=20  seed=1 live width  15  max map 2480  constant from horizon 2048
+desc B=20  seed=2 live width  12  max map 885  constant from horizon 1024
+desc B=24  seed=0 live width  18  max map 1514  constant from horizon 4096
+desc B=24  seed=1 live width  16  max map 2029  constant from horizon 1024
+desc B=24  seed=2 live width  14  max map 2235  constant from horizon 2048
+desc B=28  seed=0 live width  18  max map 26419  constant from horizon 4096
+desc B=28  seed=1 live width  20  max map 14010  constant from horizon 8192
+desc B=28  seed=2 live width  22  max map 21196  constant from horizon 2048

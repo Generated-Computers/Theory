@@ -1,0 +1,86 @@
+# max over positions of four depths, mean over 2 smoothings, seed 3
+spread16  n=2^14 eps=0.60  kp=   218.0  last=   130.0  rel=   214.5  kpr=   74.0
+spread16  n=2^18 eps=0.60  kp=   672.5  last=   300.0  rel=   830.5  kpr=  137.5
+spread16  n=2^22 eps=0.60  kp=  1347.0  last=   458.0  rel=  1623.5  kpr=  218.5
+spread16  n=2^24 eps=0.60  kp=  1625.0  last=   552.5  rel=  2143.0  kpr=  239.5
+spread16  n=2^14 eps=0.70  kp=   132.0  last=    88.5  rel=   151.0  kpr=   57.0
+spread16  n=2^18 eps=0.70  kp=   259.0  last=   151.0  rel=   325.0  kpr=   95.5
+spread16  n=2^22 eps=0.70  kp=   451.5  last=   223.0  rel=   562.0  kpr=  131.0
+spread16  n=2^24 eps=0.70  kp=   535.0  last=   257.0  rel=   684.0  kpr=  147.5
+spread16  n=2^14 eps=0.80  kp=    85.0  last=    54.5  rel=    73.0  kpr=   40.5
+spread16  n=2^18 eps=0.80  kp=   134.0  last=    94.0  rel=   161.0  kpr=   64.0
+spread16  n=2^22 eps=0.80  kp=   213.5  last=   137.0  rel=   251.0  kpr=   92.5
+spread16  n=2^24 eps=0.80  kp=   246.0  last=   155.5  rel=   302.0  kpr=  101.0
+spread64  n=2^14 eps=0.60  kp=   150.5  last=   101.0  rel=   167.5  kpr=   63.0
+spread64  n=2^18 eps=0.60  kp=   845.5  last=   280.5  rel=  1112.0  kpr=  122.5
+spread64  n=2^22 eps=0.60  kp=  2885.0  last=   575.5  rel=  4995.5  kpr=  206.5
+spread64  n=2^24 eps=0.60  kp=  4307.5  last=   724.5  rel=  8465.5  kpr=  231.0
+spread64  n=2^14 eps=0.70  kp=    92.0  last=    63.0  rel=   111.0  kpr=   44.0
+spread64  n=2^18 eps=0.70  kp=   271.5  last=   134.0  rel=   399.5  kpr=   75.0
+spread64  n=2^22 eps=0.70  kp=   527.5  last=   223.5  rel=   810.5  kpr=  117.0
+spread64  n=2^24 eps=0.70  kp=   644.0  last=   275.5  rel=   993.5  kpr=  138.5
+spread64  n=2^14 eps=0.80  kp=    67.5  last=    50.0  rel=    71.5  kpr=   36.0
+spread64  n=2^18 eps=0.80  kp=   140.0  last=    96.5  rel=   161.5  kpr=   61.0
+spread64  n=2^22 eps=0.80  kp=   217.0  last=   133.0  rel=   269.5  kpr=   84.5
+spread64  n=2^24 eps=0.80  kp=   264.0  last=   156.0  rel=   314.5  kpr=   97.5
+spread256 n=2^14 eps=0.60  kp=    57.5  last=    48.5  rel=    56.5  kpr=   34.0
+spread256 n=2^18 eps=0.60  kp=   596.5  last=   212.5  rel=   717.5  kpr=   94.5
+spread256 n=2^22 eps=0.60  kp=  4468.5  last=   592.5  rel=  8986.5  kpr=  170.0
+spread256 n=2^24 eps=0.60  kp=  9055.0  last=   732.0  rel= 30617.0  kpr=  204.5
+spread256 n=2^14 eps=0.70  kp=    54.0  last=    42.5  rel=    60.0  kpr=   33.0
+spread256 n=2^18 eps=0.70  kp=   237.0  last=   115.0  rel=   303.5  kpr=   68.0
+spread256 n=2^22 eps=0.70  kp=   508.5  last=   205.5  rel=   890.5  kpr=  105.0
+spread256 n=2^24 eps=0.70  kp=   700.5  last=   255.0  rel=  1246.0  kpr=  124.5
+spread256 n=2^14 eps=0.80  kp=    50.5  last=    37.0  rel=    45.5  kpr=   29.5
+spread256 n=2^18 eps=0.80  kp=   112.5  last=    78.5  rel=   134.0  kpr=   53.5
+spread256 n=2^22 eps=0.80  kp=   184.5  last=   119.0  rel=   252.5  kpr=   77.0
+spread256 n=2^24 eps=0.80  kp=   224.5  last=   144.5  rel=   301.0  kpr=   90.0
+lgu       n=2^14 eps=0.60  kp=   102.0  last=    71.5  rel=   123.0  kpr=   56.0
+lgu       n=2^18 eps=0.60  kp=   271.5  last=   152.0  rel=   310.0  kpr=  101.0
+lgu       n=2^22 eps=0.60  kp=   513.0  last=   256.5  rel=   749.0  kpr=  143.5
+lgu       n=2^24 eps=0.60  kp=   664.0  last=   309.0  rel=  1031.0  kpr=  163.5
+lgu       n=2^14 eps=0.70  kp=    88.5  last=    59.5  rel=    84.5  kpr=   44.0
+lgu       n=2^18 eps=0.70  kp=   162.0  last=   104.5  rel=   189.0  kpr=   70.5
+lgu       n=2^22 eps=0.70  kp=   247.5  last=   151.5  rel=   335.5  kpr=   96.5
+lgu       n=2^24 eps=0.70  kp=   315.0  last=   185.0  rel=   418.0  kpr=  117.0
+lgu       n=2^14 eps=0.80  kp=    65.0  last=    53.0  rel=    67.0  kpr=   42.0
+lgu       n=2^18 eps=0.80  kp=   116.5  last=    77.0  rel=   117.0  kpr=   58.0
+lgu       n=2^22 eps=0.80  kp=   160.0  last=   113.5  rel=   182.5  kpr=   77.5
+lgu       n=2^24 eps=0.80  kp=   188.5  last=   130.5  rel=   220.0  kpr=   86.5
+# relevance-pruned iteration on fixed-distance bases j_i = i - C, 3 smoothings, seed 1
+kprd   fix3      n=2^12 eps=0.60 mean=    48.0 max=    49
+kprd   fix3      n=2^16 eps=0.60 mean=    88.3 max=    96
+kprd   fix3      n=2^20 eps=0.60 mean=   120.7 max=   124
+kprd   fix4      n=2^12 eps=0.60 mean=    62.7 max=    63
+kprd   fix4      n=2^16 eps=0.60 mean=   110.0 max=   117
+kprd   fix4      n=2^20 eps=0.60 mean=   170.0 max=   177
+kprd   fix5      n=2^12 eps=0.60 mean=    51.7 max=    54
+kprd   fix5      n=2^16 eps=0.60 mean=    94.3 max=   102
+kprd   fix5      n=2^20 eps=0.60 mean=   131.0 max=   142
+kprd   fix6      n=2^12 eps=0.60 mean=    55.0 max=    62
+kprd   fix6      n=2^16 eps=0.60 mean=   106.0 max=   117
+kprd   fix6      n=2^20 eps=0.60 mean=   163.0 max=   167
+kprd   fix8      n=2^12 eps=0.60 mean=    53.3 max=    61
+kprd   fix8      n=2^16 eps=0.60 mean=    94.7 max=    96
+kprd   fix8      n=2^20 eps=0.60 mean=   140.3 max=   144
+kprd   fix10     n=2^12 eps=0.60 mean=    50.3 max=    56
+kprd   fix10     n=2^16 eps=0.60 mean=    96.7 max=   102
+kprd   fix10     n=2^20 eps=0.60 mean=   152.7 max=   155
+kprd   fix16     n=2^12 eps=0.60 mean=    45.3 max=    50
+kprd   fix16     n=2^16 eps=0.60 mean=    91.7 max=   100
+kprd   fix16     n=2^20 eps=0.60 mean=   127.7 max=   144
+kprd   fix32     n=2^12 eps=0.60 mean=    39.3 max=    42
+kprd   fix32     n=2^16 eps=0.60 mean=    80.3 max=    86
+kprd   fix32     n=2^20 eps=0.60 mean=   122.0 max=   125
+kprd   fix4      n=2^14 eps=0.60 mean=    85.5 max=    93
+kprd   fix4      n=2^18 eps=0.60 mean=   137.0 max=   146
+kprd   fix4      n=2^22 eps=0.60 mean=   198.0 max=   206
+kprd   fix4      n=2^24 eps=0.60 mean=   220.0 max=   224
+kprd   fix4      n=2^14 eps=0.55 mean=   101.0 max=   105
+kprd   fix4      n=2^18 eps=0.55 mean=   172.0 max=   172
+kprd   fix4      n=2^22 eps=0.55 mean=   246.5 max=   248
+kprd   fix4      n=2^24 eps=0.55 mean=   285.0 max=   288
+kprd   fix4      n=2^14 eps=0.50 mean=   114.0 max=   123
+kprd   fix4      n=2^18 eps=0.50 mean=   222.5 max=   237
+kprd   fix4      n=2^22 eps=0.50 mean=   304.5 max=   324
+kprd   fix4      n=2^24 eps=0.50 mean=   352.0 max=   358

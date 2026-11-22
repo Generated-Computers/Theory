@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.HypergraphA5",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.selector_exists",
+    "GC.Portals.a5_selector",
+    "GC.Portals.realization",
+    "GC.Portals.star_block_values",
+    "GC.Portals.charging"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.StrahlerGadgets",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.gadget_identities",
+    "GC.A5Programs.gadgets_correct",
+    "GC.A5Programs.boolean_to_A5",
+    "GC.A5Programs.strahler_unfolding",
+    "GC.A5Programs.strahler_mono",
+    "GC.A5Programs.quotient_val"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

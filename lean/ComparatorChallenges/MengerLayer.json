@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.MengerLayer",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.HornSystem.rank_layer",
+    "GC.Portals.HornSystem.lfpRegion_closed",
+    "GC.Portals.HornSystem.closure_determines_region",
+    "GC.Portals.side_premise_star",
+    "GC.Portals.side_premise_star_injective"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

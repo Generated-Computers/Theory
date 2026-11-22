@@ -1,0 +1,17 @@
+{
+  "challenge_module": "ComparatorChallenges.LogFeedbackBlock",
+  "solution_module": "GC.Computability.SCLadder.Main",
+  "theorem_names": [
+    "GC.SCLadder.unique_transcript",
+    "GC.SCLadder.card_transcripts",
+    "GC.SCLadder.transcript_summary_exact",
+    "GC.SCLadder.feedback_free_run"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

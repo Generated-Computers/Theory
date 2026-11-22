@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ComparatorChallenges.FewLongPaths",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.path_hitting",
+    "GC.SeqNORNormalForms.packing_sandwich",
+    "GC.SeqNORNormalForms.path_formula"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

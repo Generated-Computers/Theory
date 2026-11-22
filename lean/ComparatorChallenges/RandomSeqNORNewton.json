@@ -1,0 +1,32 @@
+{
+  "challenge_module": "ComparatorChallenges.RandomSeqNORNewton",
+  "solution_module": "GC.Computability.RandomSeqNOR.Main",
+  "theorem_names": [
+    "GC.RandomSeqNOR.worstPtr_lt",
+    "GC.RandomSeqNOR.err_newton_zero",
+    "GC.RandomSeqNOR.err_newton_of_isNot",
+    "GC.RandomSeqNOR.err_newton_of_not_isNot",
+    "GC.RandomSeqNOR.newton_trace",
+    "GC.RandomSeqNOR.err_newton_eq_zero_of_no_source",
+    "GC.RandomSeqNOR.err_newton_eq_one_of_first_source",
+    "GC.RandomSeqNOR.front_growth",
+    "GC.RandomSeqNOR.front_growth_iter",
+    "GC.RandomSeqNOR.newtonIter_congr",
+    "GC.RandomSeqNOR.source_witness",
+    "GC.RandomSeqNOR.newton_strahler",
+    "GC.RandomSeqNOR.exactRounds_le_strahler",
+    "GC.RandomSeqNOR.worst_case_upper",
+    "GC.RandomSeqNOR.worstInst_front",
+    "GC.RandomSeqNOR.exactRounds_worstInst",
+    "GC.RandomSeqNOR.newton_worst_case",
+    "GC.RandomSeqNOR.lexFirstMIS_eq_ones",
+    "GC.RandomSeqNOR.golden_density_fixed_point"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,17 @@
+{
+  "challenge_module": "ComparatorChallenges.ControlObservability",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.AffineMachine.control_observable_sufficiency",
+    "GC.Portals.ladder_rank",
+    "GC.Portals.ladder_pred_ne",
+    "GC.Portals.card_ladderEdges"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

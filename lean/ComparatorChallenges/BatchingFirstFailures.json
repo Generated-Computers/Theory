@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ComparatorChallenges.BatchingFirstFailures",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.first_failure_validator",
+    "GC.Portals.batch_collapse",
+    "GC.Portals.blackbox_one_round"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

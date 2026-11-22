@@ -1,0 +1,29 @@
+{
+  "challenge_module": "ComparatorChallenges.ConstantFrontier",
+  "solution_module": "GC.Computability.Tabulation.Main",
+  "theorem_names": [
+    "GC.Tabulation.AppendMachine.layer_reachable_iff",
+    "GC.Tabulation.AppendMachine.reachable_exact",
+    "GC.Tabulation.AppendMachine.frontier_mono",
+    "GC.Tabulation.AppendMachine.frontier_succ_eq_zero",
+    "GC.Tabulation.AppendMachine.frontier_restart",
+    "GC.Tabulation.AppendMachine.epochEnd_restart",
+    "GC.Tabulation.AppendMachine.epoch_packing",
+    "GC.Tabulation.AppendMachine.epoch_greedy_optimal",
+    "GC.Tabulation.AppendMachine.layer_reachable_iff_le_epochEnd",
+    "GC.Tabulation.AppendMachine.constant_frontier_trace",
+    "GC.Tabulation.moving_frame",
+    "GC.Tabulation.conjExc_moves_iff",
+    "GC.Tabulation.event_chain_stay",
+    "GC.Tabulation.event_chain_next",
+    "GC.Tabulation.conj_cycle_swap",
+    "GC.Tabulation.cycle_transposition_traj"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

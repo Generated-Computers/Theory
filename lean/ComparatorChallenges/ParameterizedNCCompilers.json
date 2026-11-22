@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.ParameterizedNCCompilers",
+  "solution_module": "GC.Computability.StructuralCompilers.Main",
+  "theorem_names": [
+    "GC.StructuralCompilers.trueMask_fixed",
+    "GC.StructuralCompilers.fixedPoint_unique",
+    "GC.StructuralCompilers.greedy_phase_repair",
+    "GC.StructuralCompilers.interactionCover_isVertexCover",
+    "GC.StructuralCompilers.record_unary_outside_cover",
+    "GC.StructuralCompilers.residual_eq_ancestryProduct",
+    "GC.StructuralCompilers.source_compression_claim_false"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,23 @@
+{
+  "challenge_module": "ComparatorChallenges.OpeningCycles",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.cycle_monodromy",
+    "GC.A5Programs.comp_descriptors",
+    "GC.A5Programs.hard_coefficient",
+    "GC.A5Programs.hard_coefficient_unique",
+    "GC.A5Programs.mixer_cycle",
+    "GC.A5Programs.mixer_inverse",
+    "GC.A5Programs.mixerStrip_bijective",
+    "GC.A5Programs.mixerStrip_no_small_summary",
+    "GC.A5Programs.hard_coefficient_boolean",
+    "GC.A5Programs.nielsen_embedding"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

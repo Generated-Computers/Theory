@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.HornStrahlerLayers",
+  "solution_module": "GC.Computability.NewtonStrahler.Main",
+  "theorem_names": [
+    "GC.NewtonStrahler.reachLayer_rankBelow",
+    "GC.NewtonStrahler.saturate_succ",
+    "GC.NewtonStrahler.rankBelow_stable",
+    "GC.NewtonStrahler.derivable_mem_rankLayer",
+    "GC.NewtonStrahler.hornNewton_rankBelow",
+    "GC.NewtonStrahler.hornNewton_iterate",
+    "GC.NewtonStrahler.Deriv.two_pow_rank_le_leaves",
+    "GC.NewtonStrahler.saturate_eq_derivable_of_leaves",
+    "GC.NewtonStrahler.BCircuit.truthTable_spec"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

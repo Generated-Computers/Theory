@@ -1,0 +1,17 @@
+{
+  "challenge_module": "ComparatorChallenges.BlockwiseGuessing",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.cand_prefix_locality",
+    "GC.SeqNORNormalForms.cand_true_prefix",
+    "GC.SeqNORNormalForms.unique_valid_branch",
+    "GC.SeqNORNormalForms.blockwise_correct"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ComparatorChallenges.ThreeNCGridCompilers",
+  "solution_module": "GC.Combinatorics.GridCompilers.Main",
+  "theorem_names": [
+    "GC.GridCompilers.gamma_bounds",
+    "GC.GridCompilers.gamma_alternating",
+    "GC.GridCompilers.rowI_eq",
+    "GC.GridCompilers.rowQ_involutive",
+    "GC.GridCompilers.payload_const",
+    "GC.GridCompilers.index_trace_last",
+    "GC.GridCompilers.onePass_injective",
+    "GC.GridCompilers.card_states_ge",
+    "GC.GridCompilers.summary_card",
+    "GC.GridCompilers.semigroup_summary_card",
+    "GC.GridCompilers.matrix_summary_dim"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

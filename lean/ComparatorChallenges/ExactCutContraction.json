@@ -1,0 +1,23 @@
+{
+  "challenge_module": "ComparatorChallenges.ExactCutContraction",
+  "solution_module": "GC.Computability.Semisort.Main",
+  "theorem_names": [
+    "GC.Semisort.internalGate_spec",
+    "GC.Semisort.internalGate_strictMono",
+    "GC.Semisort.cutRank_eq_card",
+    "GC.Semisort.exact_cut_externalization",
+    "GC.Semisort.crossing_area_identity",
+    "GC.Semisort.exists_heavy_cut",
+    "GC.Semisort.padding_counterexample",
+    "GC.Semisort.padding_counterexample_nor",
+    "GC.Semisort.seqNOR_eq_greedyMIS",
+    "GC.Semisort.jump_rule"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

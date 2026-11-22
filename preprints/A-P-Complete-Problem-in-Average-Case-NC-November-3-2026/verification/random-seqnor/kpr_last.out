@@ -1,0 +1,38 @@
+# max depths, mean over 2 smoothings, seed 5
+spread64  n=2^16 eps=0.70  kp=   160.5  last=    91.5  rel=   227.0  kpr=   62.0
+spread64  n=2^20 eps=0.70  kp=   383.5  last=   174.5  rel=   513.0  kpr=  102.0
+spread64  n=2^24 eps=0.70  kp=   643.5  last=   259.0  rel=   994.5  kpr=  137.5
+spread64  n=2^26 eps=0.70  kp=   770.0  last=   307.5  rel=  1255.0  kpr=  158.0
+spread64  n=2^16 eps=0.73  kp=   145.0  last=    87.0  rel=   189.5  kpr=   53.5
+spread64  n=2^20 eps=0.73  kp=   271.5  last=   143.0  rel=   385.5  kpr=   84.5
+spread64  n=2^24 eps=0.73  kp=   463.0  last=   215.0  rel=   666.5  kpr=  121.5
+spread64  n=2^26 eps=0.73  kp=   535.5  last=   252.5  rel=   803.5  kpr=  139.0
+spread256 n=2^16 eps=0.70  kp=   114.5  last=    70.5  rel=   134.0  kpr=   47.5
+spread256 n=2^20 eps=0.70  kp=   351.0  last=   149.5  rel=   561.5  kpr=   93.0
+spread256 n=2^24 eps=0.70  kp=   674.5  last=   255.0  rel=  1269.5  kpr=  129.0
+spread256 n=2^26 eps=0.70  kp=   837.5  last=   299.5  rel=  1728.0  kpr=  147.0
+spread256 n=2^16 eps=0.73  kp=    98.0  last=    68.0  rel=   127.0  kpr=   46.0
+spread256 n=2^20 eps=0.73  kp=   248.5  last=   135.0  rel=   362.5  kpr=   76.0
+spread256 n=2^24 eps=0.73  kp=   449.5  last=   201.0  rel=   762.5  kpr=  110.0
+spread256 n=2^26 eps=0.73  kp=   553.0  last=   240.5  rel=   907.0  kpr=  130.5
+lgu       n=2^16 eps=0.70  kp=   120.5  last=    87.5  rel=   130.0  kpr=   59.0
+lgu       n=2^20 eps=0.70  kp=   199.0  last=   125.5  rel=   250.5  kpr=   82.5
+lgu       n=2^24 eps=0.70  kp=   319.5  last=   191.0  rel=   405.5  kpr=  112.5
+lgu       n=2^26 eps=0.70  kp=   375.5  last=   216.5  rel=   502.0  kpr=  132.0
+lgu       n=2^16 eps=0.73  kp=   106.0  last=    77.0  rel=   119.5  kpr=   58.0
+lgu       n=2^20 eps=0.73  kp=   175.0  last=   119.0  rel=   212.0  kpr=   80.5
+lgu       n=2^24 eps=0.73  kp=   273.5  last=   169.5  rel=   347.0  kpr=  109.0
+lgu       n=2^26 eps=0.73  kp=   323.5  last=   195.0  rel=   422.0  kpr=  126.0
+# greedy bases built against D_last (24 training smoothings, 6 fresh)
+greedy-last n=2^12 eps=0.70 train=167.4 test-mean=51.2 test-max=58
+greedy-last n=2^14 eps=0.70 train=361.6 test-mean=87.3 test-max=100
+greedy-last n=2^16 eps=0.70 train=807.2 test-mean=119.3 test-max=129
+greedy-last n=2^18 eps=0.70 train=1556.0 test-mean=149.8 test-max=170
+greedy-last n=2^12 eps=0.73 train=148.2 test-mean=49.8 test-max=56
+greedy-last n=2^14 eps=0.73 train=321.4 test-mean=71.7 test-max=89
+greedy-last n=2^16 eps=0.73 train=640.8 test-mean=110.3 test-max=124
+greedy-last n=2^18 eps=0.73 train=1228.6 test-mean=122.7 test-max=137
+greedy-last n=2^12 eps=0.80 train=108.1 test-mean=40.0 test-max=49
+greedy-last n=2^14 eps=0.80 train=227.4 test-mean=55.8 test-max=63
+greedy-last n=2^16 eps=0.80 train=395.1 test-mean=82.2 test-max=96
+greedy-last n=2^18 eps=0.80 train=727.8 test-mean=90.2 test-max=96

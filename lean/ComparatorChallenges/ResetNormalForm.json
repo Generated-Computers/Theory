@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.ResetNormalForm",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.reset_normal_form",
+    "GC.SeqNORNormalForms.resetOp_fixed",
+    "GC.SeqNORNormalForms.resetOp_unique",
+    "GC.SeqNORNormalForms.first_disagreement",
+    "GC.SeqNORNormalForms.resetOp_iterate_n",
+    "GC.SeqNORNormalForms.resetOp_sq_not_monotone",
+    "GC.SeqNORNormalForms.event_queue",
+    "GC.SeqNORNormalForms.realizable_traces"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

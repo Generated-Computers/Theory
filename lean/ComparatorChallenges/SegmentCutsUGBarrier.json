@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.SegmentCutsUGBarrier",
+  "solution_module": "GC.Computability.StructuralCompilers.Main",
+  "theorem_names": [
+    "GC.StructuralCompilers.maximal_packing_bound",
+    "GC.StructuralCompilers.guardRouter_feasible_lift",
+    "GC.StructuralCompilers.guardRouter_feasible_project",
+    "GC.StructuralCompilers.guardRouter_dvd",
+    "GC.StructuralCompilers.anonymity_scut_one",
+    "GC.StructuralCompilers.anonymity_class_union"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

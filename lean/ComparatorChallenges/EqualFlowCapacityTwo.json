@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.EqualFlowCapacityTwo",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.MonCircuit.nand_normalization",
+    "GC.FlowCircuits.nand_polytope",
+    "GC.FlowCircuits.forcing",
+    "GC.FlowCircuits.MonCircuit.dyadic_elimination",
+    "GC.FlowCircuits.MonCircuit.equalFlow_unique",
+    "GC.FlowCircuits.cut_bound",
+    "GC.FlowCircuits.cut_size_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

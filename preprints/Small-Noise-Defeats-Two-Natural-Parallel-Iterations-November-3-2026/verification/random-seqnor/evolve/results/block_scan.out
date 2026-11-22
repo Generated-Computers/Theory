@@ -1,0 +1,23 @@
+B=8   seed=0 live width   6  max map 12  constant from horizon 256
+B=8   seed=1 live width   6  max map 17  constant from horizon 128
+B=8   seed=2 live width   5  max map 43  constant from horizon 128
+B=12  seed=0 live width   8  max map 111  constant from horizon 512
+B=12  seed=1 live width   6  max map 65  constant from horizon 256
+B=12  seed=2 live width   7  max map 204  constant from horizon 256
+B=16  seed=0 live width   8  max map 321  constant from horizon 512
+B=16  seed=1 live width  12  max map 184  constant from horizon 2048
+B=16  seed=2 live width  10  max map 308  constant from horizon 2048
+B=20  seed=0 live width  15  max map 1281  constant from horizon 2048
+B=20  seed=1 live width  15  max map 2480  constant from horizon 2048
+B=20  seed=2 live width  12  max map 885  constant from horizon 1024
+B=24  seed=0 live width  18  max map 1514  constant from horizon 4096
+B=24  seed=1 live width  16  max map 2029  constant from horizon 1024
+B=24  seed=2 live width  14  max map 2235  constant from horizon 2048
+B=28  seed=0 live width  18  max map 26419  constant from horizon 4096
+B=28  seed=1 live width  20  max map 14010  constant from horizon 8192
+B=28  seed=2 live width  22  max map 21196  constant from horizon 2048
+B=32  seed=0 live width  23  max map 15570  constant from horizon 2048
+B=32  seed=1 live width  20  max map 13375  constant from horizon 2048
+B=32  seed=2 live width  21  max map 6676  constant from horizon 4096
+B=40  seed=0 live width  27  max map 345598 (node cap hit)  constant from horizon None
+B=40  seed=1 live width  24  max map 222017 (node cap hit)  constant from horizon None

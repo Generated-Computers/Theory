@@ -1,0 +1,27 @@
+{
+  "challenge_module": "ComparatorChallenges.RandomSeqNORGap",
+  "solution_module": "GC.Computability.RandomSeqNOR.Main",
+  "theorem_names": [
+    "GC.RandomSeqNOR.compPtr_lt",
+    "GC.RandomSeqNOR.smoothKernel_comp",
+    "GC.RandomSeqNOR.smoothLaw_comp",
+    "GC.RandomSeqNOR.smoothing_upset",
+    "GC.RandomSeqNOR.gadget_N",
+    "GC.RandomSeqNOR.gadget_M",
+    "GC.RandomSeqNOR.gadget_M'",
+    "GC.RandomSeqNOR.gadget_N_has_one",
+    "GC.RandomSeqNOR.gadget_M'_has_two_ones",
+    "GC.RandomSeqNOR.cell_step1",
+    "GC.RandomSeqNOR.comp_exact",
+    "GC.RandomSeqNOR.comp_step1",
+    "GC.RandomSeqNOR.embed_step3",
+    "GC.RandomSeqNOR.embed64_ten_iterations"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

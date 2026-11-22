@@ -1,0 +1,24 @@
+{
+  "challenge_module": "ComparatorChallenges.KnowledgeCompilationLadder",
+  "solution_module": "GC.Computability.SCLadder.Main",
+  "theorem_names": [
+    "GC.SCLadder.leaf_pullback",
+    "GC.SCLadder.leaf_conj",
+    "GC.SCLadder.conj_iUnion_prod",
+    "GC.SCLadder.conj_pairwise_disjoint",
+    "GC.SCLadder.transfer_pullback",
+    "GC.SCLadder.piece_injective",
+    "GC.SCLadder.diag_cover_card",
+    "GC.SCLadder.ordered_equality_states",
+    "GC.SCLadder.rect_card_le",
+    "GC.SCLadder.card_ip_eq_one",
+    "GC.SCLadder.ip_rect_cover_card"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

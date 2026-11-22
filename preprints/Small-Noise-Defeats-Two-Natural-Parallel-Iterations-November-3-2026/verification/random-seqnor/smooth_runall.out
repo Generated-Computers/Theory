@@ -1,0 +1,96 @@
+== fidelity (s=200, m=15), mean bad fraction per bundle; trace only
+embed s=200 m=15 h=2 n=204001 eps=0.00500  output-correct=1.000  mean-bad-frac=0.0007  worst-bundle-bad=0.067  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0020  worst-bundle-bad=0.133  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.02000  output-correct=1.000  mean-bad-frac=0.0050  worst-bundle-bad=0.200  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.03000  output-correct=1.000  mean-bad-frac=0.0083  worst-bundle-bad=0.200  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.05000  output-correct=1.000  mean-bad-frac=0.0228  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.07000  output-correct=1.000  mean-bad-frac=0.0600  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.10000  output-correct=1.000  mean-bad-frac=0.2034  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.15000  output-correct=0.750  mean-bad-frac=0.3754  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.20000  output-correct=0.650  mean-bad-frac=0.4317  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.30000  output-correct=0.600  mean-bad-frac=0.4588  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=0.50000  output-correct=0.750  mean-bad-frac=0.4679  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=2 n=204001 eps=1.00000  output-correct=0.750  mean-bad-frac=0.4747  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.00500  output-correct=1.000  mean-bad-frac=0.0007  worst-bundle-bad=0.067  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0019  worst-bundle-bad=0.133  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.02000  output-correct=1.000  mean-bad-frac=0.0041  worst-bundle-bad=0.133  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.03000  output-correct=1.000  mean-bad-frac=0.0071  worst-bundle-bad=0.200  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.05000  output-correct=1.000  mean-bad-frac=0.0169  worst-bundle-bad=0.267  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.07000  output-correct=1.000  mean-bad-frac=0.0348  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.10000  output-correct=0.950  mean-bad-frac=0.1073  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.15000  output-correct=0.750  mean-bad-frac=0.3596  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.20000  output-correct=0.650  mean-bad-frac=0.4319  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.30000  output-correct=0.850  mean-bad-frac=0.4541  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=0.50000  output-correct=0.650  mean-bad-frac=0.4701  worst-bundle-bad=1.000  [ones among gates 81/200]
+embed s=200 m=15 h=3 n=636001 eps=1.00000  output-correct=0.650  mean-bad-frac=0.4767  worst-bundle-bad=0.933  [ones among gates 81/200]
+== Newton on embedded instances (m=9, h=2)
+embed s=40 m=9 h=2 n=24481 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  newton-mean=104.0 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  newton-mean=350.0 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.00000  output-correct=1.000  mean-bad-frac=0.0000  worst-bundle-bad=0.000  newton-mean=539.0 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0005  worst-bundle-bad=0.111  newton-mean=51.2 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0020  worst-bundle-bad=0.222  newton-mean=154.5 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.01000  output-correct=1.000  mean-bad-frac=0.0021  worst-bundle-bad=0.111  newton-mean=247.5 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.10000  output-correct=0.500  mean-bad-frac=0.2449  worst-bundle-bad=1.000  newton-mean=41.3 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.10000  output-correct=0.833  mean-bad-frac=0.2068  worst-bundle-bad=1.000  newton-mean=139.5 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.10000  output-correct=0.500  mean-bad-frac=0.1766  worst-bundle-bad=1.000  newton-mean=416.0 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.20000  output-correct=0.500  mean-bad-frac=0.4347  worst-bundle-bad=1.000  newton-mean=29.7 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.20000  output-correct=0.833  mean-bad-frac=0.4263  worst-bundle-bad=1.000  newton-mean=84.5 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.20000  output-correct=0.333  mean-bad-frac=0.4268  worst-bundle-bad=1.000  newton-mean=225.5 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.30000  output-correct=0.000  mean-bad-frac=0.4444  worst-bundle-bad=1.000  newton-mean=21.3 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.30000  output-correct=0.500  mean-bad-frac=0.4549  worst-bundle-bad=1.000  newton-mean=39.3 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.30000  output-correct=0.333  mean-bad-frac=0.4535  worst-bundle-bad=1.000  newton-mean=65.5 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.50000  output-correct=0.500  mean-bad-frac=0.4565  worst-bundle-bad=1.000  newton-mean=14.2 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.50000  output-correct=0.667  mean-bad-frac=0.4578  worst-bundle-bad=1.000  newton-mean=19.8 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.50000  output-correct=0.167  mean-bad-frac=0.4633  worst-bundle-bad=1.000  newton-mean=25.7 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=0.70000  output-correct=0.500  mean-bad-frac=0.4532  worst-bundle-bad=1.000  newton-mean=13.0 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=0.70000  output-correct=0.667  mean-bad-frac=0.4637  worst-bundle-bad=1.000  newton-mean=15.5 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=0.70000  output-correct=0.167  mean-bad-frac=0.4661  worst-bundle-bad=1.000  newton-mean=17.8 (capped 0/6 at 400000)  [ones among gates 252/640]
+embed s=40 m=9 h=2 n=24481 eps=1.00000  output-correct=0.333  mean-bad-frac=0.4662  worst-bundle-bad=1.000  newton-mean=12.2 (capped 0/6 at 400000)  [ones among gates 15/40]
+embed s=160 m=9 h=2 n=97921 eps=1.00000  output-correct=0.833  mean-bad-frac=0.4708  worst-bundle-bad=1.000  newton-mean=13.8 (capped 0/6 at 400000)  [ones among gates 60/160]
+embed s=640 m=9 h=2 n=391681 eps=1.00000  output-correct=0.333  mean-bad-frac=0.4736  worst-bundle-bad=1.000  newton-mean=16.8 (capped 0/6 at 400000)  [ones among gates 252/640]
+== Newton on smoothed j_i = max(0,i-2)
+base im2 n=1024 eps=0.0000 newton-mean=1.00 max=1 capped=0/10
+base im2 n=4096 eps=0.0000 newton-mean=1.00 max=1 capped=0/10
+base im2 n=16384 eps=0.0000 newton-mean=1.00 max=1 capped=0/10
+base im2 n=65536 eps=0.0000 newton-mean=1.00 max=1 capped=0/10
+base im2 n=262144 eps=0.0000 newton-mean=1.00 max=1 capped=0/10
+base im2 n=1024 eps=0.1000 newton-mean=134.40 max=195 capped=0/10
+base im2 n=4096 eps=0.1000 newton-mean=426.40 max=501 capped=0/10
+base im2 n=16384 eps=0.1000 newton-mean=1004.50 max=1062 capped=0/10
+base im2 n=65536 eps=0.1000 newton-mean=2209.60 max=2805 capped=0/10
+base im2 n=262144 eps=0.1000 newton-mean=3770.20 max=4249 capped=0/10
+base im2 n=1024 eps=0.3000 newton-mean=78.00 max=111 capped=0/10
+base im2 n=4096 eps=0.3000 newton-mean=152.40 max=188 capped=0/10
+base im2 n=16384 eps=0.3000 newton-mean=274.80 max=310 capped=0/10
+base im2 n=65536 eps=0.3000 newton-mean=419.70 max=532 capped=0/10
+base im2 n=262144 eps=0.3000 newton-mean=573.20 max=631 capped=0/10
+base im2 n=1024 eps=0.5000 newton-mean=33.40 max=42 capped=0/10
+base im2 n=4096 eps=0.5000 newton-mean=58.40 max=73 capped=0/10
+base im2 n=16384 eps=0.5000 newton-mean=94.20 max=116 capped=0/10
+base im2 n=65536 eps=0.5000 newton-mean=128.50 max=145 capped=0/10
+base im2 n=262144 eps=0.5000 newton-mean=178.40 max=209 capped=0/10
+base im2 n=1024 eps=0.7000 newton-mean=20.00 max=26 capped=0/10
+base im2 n=4096 eps=0.7000 newton-mean=28.70 max=36 capped=0/10
+base im2 n=16384 eps=0.7000 newton-mean=38.10 max=48 capped=0/10
+base im2 n=65536 eps=0.7000 newton-mean=53.00 max=64 capped=0/10
+base im2 n=262144 eps=0.7000 newton-mean=65.40 max=82 capped=0/10
+base im2 n=1024 eps=0.9000 newton-mean=11.10 max=12 capped=0/10
+base im2 n=4096 eps=0.9000 newton-mean=15.10 max=17 capped=0/10
+base im2 n=16384 eps=0.9000 newton-mean=18.40 max=23 capped=0/10
+base im2 n=65536 eps=0.9000 newton-mean=22.40 max=25 capped=0/10
+base im2 n=262144 eps=0.9000 newton-mean=25.50 max=28 capped=0/10
+base im2 n=1024 eps=1.0000 newton-mean=8.40 max=10 capped=0/10
+base im2 n=4096 eps=1.0000 newton-mean=9.70 max=11 capped=0/10
+base im2 n=16384 eps=1.0000 newton-mean=12.30 max=14 capped=0/10
+base im2 n=65536 eps=1.0000 newton-mean=14.20 max=16 capped=0/10
+base im2 n=262144 eps=1.0000 newton-mean=15.50 max=16 capped=0/10
+== Newton on smoothed W_n
+base wn n=4096 eps=0.0100 newton-mean=926.60 max=1360 capped=0/10
+base wn n=65536 eps=0.0100 newton-mean=2965.80 max=3905 capped=0/10
+base wn n=4096 eps=0.1000 newton-mean=201.50 max=287 capped=0/10
+base wn n=65536 eps=0.1000 newton-mean=456.60 max=552 capped=0/10
+base wn n=4096 eps=0.3000 newton-mean=76.10 max=99 capped=0/10
+base wn n=65536 eps=0.3000 newton-mean=143.30 max=168 capped=0/10
+base wn n=4096 eps=0.5000 newton-mean=35.30 max=44 capped=0/10
+base wn n=65536 eps=0.5000 newton-mean=61.00 max=70 capped=0/10
+DONE

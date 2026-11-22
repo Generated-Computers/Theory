@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.StableSemisortPaddedSorting",
+  "solution_module": "GC.Computability.Semisort.Main",
+  "theorem_names": [
+    "GC.Semisort.closure_correct",
+    "GC.Semisort.stableSemisort_of_paddedSort",
+    "GC.Semisort.paddedSort_of_stableSemisort",
+    "GC.Semisort.predictionAlignmentError_eq_collisionEnergy",
+    "GC.Semisort.density_barrier"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

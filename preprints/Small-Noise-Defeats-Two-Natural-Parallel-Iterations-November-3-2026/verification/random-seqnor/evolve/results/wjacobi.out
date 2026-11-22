@@ -1,0 +1,193 @@
+# block bases of Table tab:block (B = 32, h = 4), windows L = LB = 256 and 1024
+n=262144 B=32 eps=0.000  KP=8207.0 KPR=8202.0  WJ(L=256,LB=256) rounds=24.00 max=25 depth=12288 wrong1=97017.5
+n=262144 B=32 eps=0.000  KP=8207.0 KPR=8202.0  WJ(L=1024,LB=1024) rounds=6.50 max=7 depth=13312 wrong1=51461.5
+n=1048576 B=32 eps=0.000  KP=32782.5 KPR=32778.5  WJ(L=256,LB=256) rounds=26.00 max=27 depth=13312 wrong1=396060.5
+n=1048576 B=32 eps=0.000  KP=32782.5 KPR=32778.5  WJ(L=1024,LB=1024) rounds=7.50 max=8 depth=15360 wrong1=220781.0
+n=4194304 B=32 eps=0.000  KP=131087.0 KPR=131082.0  WJ(L=256,LB=256) rounds=33.50 max=34 depth=17152 wrong1=1563630.0
+n=4194304 B=32 eps=0.000  KP=131087.0 KPR=131082.0  WJ(L=1024,LB=1024) rounds=8.00 max=8 depth=16384 wrong1=855107.0
+n=262144 B=32 eps=0.100  KP=8216.0 KPR=8204.0  WJ(L=256,LB=256) rounds=84.50 max=87 depth=43264 wrong1=114478.0
+n=262144 B=32 eps=0.100  KP=8216.0 KPR=8204.0  WJ(L=1024,LB=1024) rounds=36.50 max=37 depth=74752 wrong1=113031.0
+n=1048576 B=32 eps=0.100  KP=32793.0 KPR=32773.0  WJ(L=256,LB=256) rounds=142.50 max=147 depth=72960 wrong1=454865.5
+n=1048576 B=32 eps=0.100  KP=32793.0 KPR=32773.0  WJ(L=1024,LB=1024) rounds=62.50 max=63 depth=128000 wrong1=453925.0
+n=4194304 B=32 eps=0.100  KP=131096.5 KPR=130123.5  WJ(L=256,LB=256) rounds=210.00 max=226 depth=107520 wrong1=1820914.5
+n=4194304 B=32 eps=0.100  KP=131096.5 KPR=130123.5  WJ(L=1024,LB=1024) rounds=94.50 max=101 depth=193536 wrong1=1817629.0
+n=262144 B=32 eps=0.300  KP=8136.0 KPR=2535.5  WJ(L=256,LB=256) rounds=45.50 max=48 depth=23296 wrong1=121428.5
+n=262144 B=32 eps=0.300  KP=8136.0 KPR=2535.5  WJ(L=1024,LB=1024) rounds=32.00 max=34 depth=65536 wrong1=120971.0
+n=1048576 B=32 eps=0.300  KP=32204.0 KPR=5816.5  WJ(L=256,LB=256) rounds=68.00 max=68 depth=34816 wrong1=487519.0
+n=1048576 B=32 eps=0.300  KP=32204.0 KPR=5816.5  WJ(L=1024,LB=1024) rounds=48.00 max=50 depth=98304 wrong1=485474.5
+n=4194304 B=32 eps=0.300  KP=127534.0 KPR=10328.0  WJ(L=256,LB=256) rounds=87.00 max=89 depth=44544 wrong1=1951425.0
+n=4194304 B=32 eps=0.300  KP=127534.0 KPR=10328.0  WJ(L=1024,LB=1024) rounds=61.50 max=65 depth=125952 wrong1=1949209.0
+# longer blocks (h = B/8), windows 1024 and 4096
+n=1048576 B=64 eps=0.000  KP=16415.0 KPR=16406.0  WJ(L=1024,LB=1024) rounds=75.50 max=79 depth=154624 wrong1=448573.0
+n=1048576 B=64 eps=0.000  KP=16415.0 KPR=16406.0  WJ(L=4096,LB=4096) rounds=18.00 max=20 depth=147456 wrong1=392730.5
+n=2097152 B=64 eps=0.000  KP=32798.5 KPR=32789.5  WJ(L=1024,LB=1024) rounds=91.50 max=111 depth=187392 wrong1=901231.5
+n=2097152 B=64 eps=0.000  KP=32798.5 KPR=32789.5  WJ(L=4096,LB=4096) rounds=22.00 max=28 depth=180224 wrong1=771938.5
+n=1048576 B=64 eps=0.100  KP=16425.5 KPR=16407.5  WJ(L=1024,LB=1024) rounds=242.00 max=245 depth=495616 wrong1=480581.5
+n=1048576 B=64 eps=0.100  KP=16425.5 KPR=16407.5  WJ(L=4096,LB=4096) rounds=82.00 max=83 depth=671744 wrong1=477246.0
+n=2097152 B=64 eps=0.100  KP=32811.0 KPR=32790.0  WJ(L=1024,LB=1024) rounds=359.00 max=372 depth=735232 wrong1=963160.0
+n=2097152 B=64 eps=0.100  KP=32811.0 KPR=32790.0  WJ(L=4096,LB=4096) rounds=124.00 max=125 depth=1015808 wrong1=957915.0
+n=1048576 B=64 eps=0.300  KP=16429.0 KPR=9604.5  WJ(L=1024,LB=1024) rounds=67.00 max=68 depth=137216 wrong1=494966.5
+n=1048576 B=64 eps=0.300  KP=16429.0 KPR=9604.5  WJ(L=4096,LB=4096) rounds=42.00 max=44 depth=344064 wrong1=491185.0
+n=2097152 B=64 eps=0.300  KP=32824.0 KPR=16851.0  WJ(L=1024,LB=1024) rounds=80.00 max=81 depth=163840 wrong1=990931.0
+n=2097152 B=64 eps=0.300  KP=32824.0 KPR=16851.0  WJ(L=4096,LB=4096) rounds=53.00 max=53 depth=434176 wrong1=988205.5
+n=1048576 B=64 eps=0.500  KP=8730.0 KPR=368.0  WJ(L=1024,LB=1024) rounds=35.00 max=37 depth=71680 wrong1=505182.5
+n=1048576 B=64 eps=0.500  KP=8730.0 KPR=368.0  WJ(L=4096,LB=4096) rounds=27.50 max=29 depth=225280 wrong1=501122.0
+n=2097152 B=64 eps=0.500  KP=14065.5 KPR=432.5  WJ(L=1024,LB=1024) rounds=40.50 max=42 depth=82944 wrong1=1009299.0
+n=2097152 B=64 eps=0.500  KP=14065.5 KPR=432.5  WJ(L=4096,LB=4096) rounds=33.00 max=34 depth=270336 wrong1=1005767.0
+n=1048576 B=128 eps=0.000  KP=8255.0 KPR=8233.5  WJ(L=1024,LB=1024) rounds=511.50 max=512 depth=1047552 wrong1=482335.5
+n=1048576 B=128 eps=0.000  KP=8255.0 KPR=8233.5  WJ(L=4096,LB=4096) rounds=128.00 max=128 depth=1048576 wrong1=477837.0
+n=2097152 B=128 eps=0.000  KP=16446.5 KPR=16426.0  WJ(L=1024,LB=1024) rounds=1023.50 max=1024 depth=2096128 wrong1=965394.5
+n=2097152 B=128 eps=0.000  KP=16446.5 KPR=16426.0  WJ(L=4096,LB=4096) rounds=256.00 max=256 depth=2097152 wrong1=962886.5
+n=1048576 B=128 eps=0.100  KP=8267.5 KPR=8236.5  WJ(L=1024,LB=1024) rounds=506.50 max=509 depth=1037312 wrong1=489054.0
+n=1048576 B=128 eps=0.100  KP=8267.5 KPR=8236.5  WJ(L=4096,LB=4096) rounds=126.50 max=127 depth=1036288 wrong1=485850.5
+n=2097152 B=128 eps=0.100  KP=16468.0 KPR=16431.0  WJ(L=1024,LB=1024) rounds=1005.00 max=1009 depth=2058240 wrong1=979024.5
+n=2097152 B=128 eps=0.100  KP=16468.0 KPR=16431.0  WJ(L=4096,LB=4096) rounds=251.00 max=253 depth=2056192 wrong1=975425.5
+n=1048576 B=128 eps=0.300  KP=8270.0 KPR=7888.5  WJ(L=1024,LB=1024) rounds=134.50 max=142 depth=275456 wrong1=498848.0
+n=1048576 B=128 eps=0.300  KP=8270.0 KPR=7888.5  WJ(L=4096,LB=4096) rounds=59.50 max=61 depth=487424 wrong1=495210.5
+n=2097152 B=128 eps=0.300  KP=16470.0 KPR=15198.5  WJ(L=1024,LB=1024) rounds=173.00 max=175 depth=354304 wrong1=998703.5
+n=2097152 B=128 eps=0.300  KP=16470.0 KPR=15198.5  WJ(L=4096,LB=4096) rounds=78.00 max=79 depth=638976 wrong1=993593.0
+n=1048576 B=128 eps=0.500  KP=7612.0 KPR=352.0  WJ(L=1024,LB=1024) rounds=40.00 max=41 depth=81920 wrong1=505372.0
+n=1048576 B=128 eps=0.500  KP=7612.0 KPR=352.0  WJ(L=4096,LB=4096) rounds=29.00 max=29 depth=237568 wrong1=502045.5
+n=2097152 B=128 eps=0.500  KP=14837.0 KPR=388.5  WJ(L=1024,LB=1024) rounds=44.50 max=47 depth=91136 wrong1=1011924.0
+n=2097152 B=128 eps=0.500  KP=14837.0 KPR=388.5  WJ(L=4096,LB=4096) rounds=33.50 max=34 depth=274432 wrong1=1008202.5
+n=1048576 B=256 eps=0.000  KP=4223.0 KPR=4181.0  WJ(L=1024,LB=1024) rounds=512.00 max=512 depth=1048576 wrong1=488602.5
+n=1048576 B=256 eps=0.000  KP=4223.0 KPR=4181.0  WJ(L=4096,LB=4096) rounds=128.00 max=128 depth=1048576 wrong1=483889.5
+n=2097152 B=256 eps=0.000  KP=8318.5 KPR=8277.0  WJ(L=1024,LB=1024) rounds=1024.00 max=1024 depth=2097152 wrong1=979301.0
+n=2097152 B=256 eps=0.000  KP=8318.5 KPR=8277.0  WJ(L=4096,LB=4096) rounds=256.00 max=256 depth=2097152 wrong1=978453.5
+n=1048576 B=256 eps=0.100  KP=4254.5 KPR=4189.0  WJ(L=1024,LB=1024) rounds=512.00 max=512 depth=1048576 wrong1=492535.0
+n=1048576 B=256 eps=0.100  KP=4254.5 KPR=4189.0  WJ(L=4096,LB=4096) rounds=128.00 max=128 depth=1048576 wrong1=491950.5
+n=2097152 B=256 eps=0.100  KP=8361.0 KPR=8291.5  WJ(L=1024,LB=1024) rounds=1024.00 max=1024 depth=2097152 wrong1=986175.5
+n=2097152 B=256 eps=0.100  KP=8361.0 KPR=8291.5  WJ(L=4096,LB=4096) rounds=256.00 max=256 depth=2097152 wrong1=985988.5
+n=1048576 B=256 eps=0.300  KP=4219.5 KPR=4147.5  WJ(L=1024,LB=1024) rounds=270.00 max=270 depth=552960 wrong1=500234.5
+n=1048576 B=256 eps=0.300  KP=4219.5 KPR=4147.5  WJ(L=4096,LB=4096) rounds=78.50 max=80 depth=643072 wrong1=496400.5
+n=2097152 B=256 eps=0.300  KP=8322.5 KPR=8248.5  WJ(L=1024,LB=1024) rounds=449.50 max=463 depth=920576 wrong1=1003068.0
+n=2097152 B=256 eps=0.300  KP=8322.5 KPR=8248.5  WJ(L=4096,LB=4096) rounds=130.50 max=132 depth=1069056 wrong1=998510.0
+n=1048576 B=256 eps=0.500  KP=4174.0 KPR=324.5  WJ(L=1024,LB=1024) rounds=49.50 max=51 depth=101376 wrong1=506696.0
+n=1048576 B=256 eps=0.500  KP=4174.0 KPR=324.5  WJ(L=4096,LB=4096) rounds=32.00 max=33 depth=262144 wrong1=504552.5
+n=2097152 B=256 eps=0.500  KP=8288.5 KPR=387.5  WJ(L=1024,LB=1024) rounds=59.50 max=61 depth=121856 wrong1=1015448.0
+n=2097152 B=256 eps=0.500  KP=8288.5 KPR=387.5  WJ(L=4096,LB=4096) rounds=37.00 max=38 depth=303104 wrong1=1011659.0
+# test bed, windows 1024
+block8_1048576.bin       n=1048576 KP=128868 KPR=113843  WJ(L=1024,LB=1024) rounds=6 depth=12288 wrong1=80374
+block8_262144.bin        n=262144  KP=32629 KPR=31367  WJ(L=1024,LB=1024) rounds=5 depth=10240 wrong1=21886
+block8_65536.bin         n=65536   KP=8195 KPR=7933  WJ(L=1024,LB=1024) rounds=4 depth=8192 wrong1=4960
+emb-rand_1048576.bin     n=1048591 KP=98 KPR=62  WJ(L=1024,LB=1024) rounds=19 depth=38912 wrong1=419751
+emb-rand_262144.bin      n=262171  KP=82 KPR=44  WJ(L=1024,LB=1024) rounds=14 depth=28672 wrong1=103048
+emb-rand_65536.bin       n=65521   KP=60 KPR=33  WJ(L=1024,LB=1024) rounds=9 depth=18432 wrong1=24229
+emb-w2_1048576.bin       n=1048591 KP=17694 KPR=12043  WJ(L=1024,LB=1024) rounds=511 depth=1046528 wrong1=400338
+emb-w2_262144.bin        n=262171  KP=4425 KPR=3002  WJ(L=1024,LB=1024) rounds=129 depth=264192 wrong1=104107
+emb-w2_65536.bin         n=65521   KP=1111 KPR=752  WJ(L=1024,LB=1024) rounds=32 depth=65536 wrong1=25569
+emb-w8_1048576.bin       n=1048591 KP=4510 KPR=3011  WJ(L=1024,LB=1024) rounds=512 depth=1048576 wrong1=415146
+emb-w8_262144.bin        n=262171  KP=1130 KPR=755  WJ(L=1024,LB=1024) rounds=129 depth=264192 wrong1=100533
+emb-w8_65536.bin         n=65521   KP=285 KPR=193  WJ(L=1024,LB=1024) rounds=31 depth=63488 wrong1=24252
+emb-wsqrt_1048576.bin    n=1048591 KP=352 KPR=229  WJ(L=1024,LB=1024) rounds=107 depth=219136 wrong1=402126
+emb-wsqrt_262144.bin     n=262171  KP=175 KPR=115  WJ(L=1024,LB=1024) rounds=52 depth=106496 wrong1=99182
+emb-wsqrt_65536.bin      n=65521   KP=88 KPR=60  WJ(L=1024,LB=1024) rounds=21 depth=43008 wrong1=24818
+emb1-w8_1048576.bin      n=1048577 KP=32770 KPR=15701  WJ(L=1024,LB=1024) rounds=217 depth=444416 wrong1=262999
+emb1-w8_262144.bin       n=262145  KP=8194 KPR=6590  WJ(L=1024,LB=1024) rounds=82 depth=167936 wrong1=69924
+emb1-w8_65536.bin        n=65537   KP=2049 KPR=1973  WJ(L=1024,LB=1024) rounds=29 depth=59392 wrong1=39450
+lin2_1048576.bin         n=1048576 KP=323857 KPR=202144  WJ(L=1024,LB=1024) rounds=17 depth=34816 wrong1=353628
+lin2_262144.bin          n=262144  KP=104832 KPR=65934  WJ(L=1024,LB=1024) rounds=12 depth=24576 wrong1=90930
+lin2_65536.bin           n=65536   KP=29604 KPR=19832  WJ(L=1024,LB=1024) rounds=8 depth=16384 wrong1=20084
+remb-w8_1048576.bin      n=1048681 KP=6983 KPR=3732  WJ(L=1024,LB=1024) rounds=343 depth=702464 wrong1=354670
+remb-w8_262144.bin       n=262801  KP=1876 KPR=1008  WJ(L=1024,LB=1024) rounds=90 depth=184320 wrong1=87072
+remb-w8_65536.bin        n=65791   KP=445 KPR=226  WJ(L=1024,LB=1024) rounds=23 depth=47104 wrong1=21701
+rev-w8_1048576.bin       n=1048597 KP=48821 KPR=33616  WJ(L=1024,LB=1024) rounds=416 depth=851968 wrong1=352703
+rev-w8_262144.bin        n=262149  KP=12072 KPR=8224  WJ(L=1024,LB=1024) rounds=118 depth=241664 wrong1=87275
+rev-w8_65536.bin         n=65545   KP=2962 KPR=2049  WJ(L=1024,LB=1024) rounds=31 depth=63488 wrong1=20407
+uniform_1048576.bin      n=1048576 KP=65 KPR=44  WJ(L=1024,LB=1024) rounds=28 depth=57344 wrong1=524012
+uniform_262144.bin       n=262144  KP=57 KPR=36  WJ(L=1024,LB=1024) rounds=19 depth=38912 wrong1=129535
+uniform_65536.bin        n=65536   KP=50 KPR=33  WJ(L=1024,LB=1024) rounds=13 depth=26624 wrong1=31505
+# coalescence at eps = 0 and 0.1 (64 copies, 40 trials, cap 4000 blocks)
+B=8     h=2    eps=0.000  coalescence (positions): median 104  p90 224  max 248  [blocks: median 13.0]
+B=12    h=2    eps=0.000  coalescence (positions): median 288  p90 564  max 660  [blocks: median 24.0]
+B=16    h=2    eps=0.000  coalescence (positions): median 528  p90 1568  max 1744  [blocks: median 33.0]
+B=20    h=2    eps=0.000  coalescence (positions): median 1000  p90 1760  max 2060  [blocks: median 50.0]
+B=24    h=3    eps=0.000  coalescence (positions): median 1584  p90 2712  max 3648  [blocks: median 66.0]
+B=28    h=3    eps=0.000  coalescence (positions): median 2408  p90 4844  max 6580  [blocks: median 86.0]
+B=32    h=4    eps=0.000  coalescence (positions): median 3360  p90 7232  max 8416  [blocks: median 105.0]
+B=40    h=5    eps=0.000  coalescence (positions): median 6640  p90 17000  max 22360  [blocks: median 166.0]
+B=48    h=6    eps=0.000  coalescence (positions): median 18192  p90 24480  max 34608  [blocks: median 379.0]
+B=64    h=8    eps=0.000  coalescence (positions): median 58368  p90 94272  max 183744  [blocks: median 912.0]
+B=128   h=16   eps=0.000  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 4000.0]
+B=256   h=32   eps=0.000  coalescence (positions): median 1024001  p90 1024001  max 1024001  (some never within cap)  [blocks: median 4000.0]
+B=512   h=64   eps=0.000  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 4000.0]
+B=1024  h=128  eps=0.000  coalescence (positions): median 4096001  p90 4096001  max 4096001  (some never within cap)  [blocks: median 4000.0]
+B=8     h=2    eps=0.100  coalescence (positions): median 80  p90 136  max 280  [blocks: median 10.0]
+B=12    h=2    eps=0.100  coalescence (positions): median 228  p90 420  max 792  [blocks: median 19.0]
+B=16    h=2    eps=0.100  coalescence (positions): median 336  p90 640  max 944  [blocks: median 21.0]
+B=20    h=2    eps=0.100  coalescence (positions): median 500  p90 1000  max 1660  [blocks: median 25.0]
+B=24    h=3    eps=0.100  coalescence (positions): median 768  p90 1632  max 3936  [blocks: median 32.0]
+B=28    h=3    eps=0.100  coalescence (positions): median 1344  p90 2688  max 3556  [blocks: median 48.0]
+B=32    h=4    eps=0.100  coalescence (positions): median 1568  p90 4000  max 4704  [blocks: median 49.0]
+B=40    h=5    eps=0.100  coalescence (positions): median 2760  p90 4400  max 10640  [blocks: median 69.0]
+B=48    h=6    eps=0.100  coalescence (positions): median 4896  p90 10992  max 24768  [blocks: median 102.0]
+B=64    h=8    eps=0.100  coalescence (positions): median 17792  p90 256001  max 256001  (some never within cap)  [blocks: median 278.0]
+B=128   h=16   eps=0.100  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 4000.0]
+B=256   h=32   eps=0.100  coalescence (positions): median 1024001  p90 1024001  max 1024001  (some never within cap)  [blocks: median 4000.0]
+B=512   h=64   eps=0.100  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 4000.0]
+B=1024  h=128  eps=0.100  coalescence (positions): median 4096001  p90 4096001  max 4096001  (some never within cap)  [blocks: median 4000.0]
+# first agreement under noise (20 trials, cap 1000 blocks)
+B=128   h=16   eps=0.100  coalescence (positions): median 128001  p90 128001  max 128001  (some never within cap)  [blocks: median 1000.0]
+B=128   h=16   eps=0.200  coalescence (positions): median 128001  p90 128001  max 128001  (some never within cap)  [blocks: median 1000.0]
+B=128   h=16   eps=0.250  coalescence (positions): median 128001  p90 128001  max 128001  (some never within cap)  [blocks: median 1000.0]
+B=128   h=16   eps=0.300  coalescence (positions): median 8576  p90 128001  max 128001  (some never within cap)  [blocks: median 67.0]
+B=128   h=16   eps=0.350  coalescence (positions): median 3840  p90 128001  max 128001  (some never within cap)  [blocks: median 30.0]
+B=128   h=16   eps=0.400  coalescence (positions): median 2432  p90 4480  max 6272  [blocks: median 19.0]
+B=128   h=16   eps=0.500  coalescence (positions): median 1408  p90 2816  max 2816  [blocks: median 11.0]
+B=512   h=64   eps=0.100  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.200  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.250  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.300  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.350  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.400  coalescence (positions): median 512001  p90 512001  max 512001  (some never within cap)  [blocks: median 1000.0]
+B=512   h=64   eps=0.500  coalescence (positions): median 13824  p90 28160  max 33280  [blocks: median 27.0]
+B=2048  h=256  eps=0.100  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.200  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.250  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.300  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.350  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.400  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+B=2048  h=256  eps=0.500  coalescence (positions): median 2048001  p90 2048001  max 2048001  (some never within cap)  [blocks: median 1000.0]
+# profiles against the true trace at eps = 0
+B=32 h=4 eps=0.000  after      1 blocks: copies equal to the truth 0.000, disagreement of the others 0.458 (12 trials)
+B=32 h=4 eps=0.000  after      2 blocks: copies equal to the truth 0.003, disagreement of the others 0.457 (12 trials)
+B=32 h=4 eps=0.000  after      4 blocks: copies equal to the truth 0.010, disagreement of the others 0.442 (12 trials)
+B=32 h=4 eps=0.000  after      8 blocks: copies equal to the truth 0.073, disagreement of the others 0.458 (12 trials)
+B=32 h=4 eps=0.000  after     16 blocks: copies equal to the truth 0.173, disagreement of the others 0.461 (12 trials)
+B=32 h=4 eps=0.000  after     32 blocks: copies equal to the truth 0.482, disagreement of the others 0.441 (12 trials)
+B=32 h=4 eps=0.000  after     64 blocks: copies equal to the truth 0.818, disagreement of the others 0.445 (10 trials)
+B=32 h=4 eps=0.000  after    128 blocks: copies equal to the truth 0.982, disagreement of the others 0.328 (4 trials)
+B=32 h=4 eps=0.000  after    256 blocks: copies equal to the truth 0.999, disagreement of the others 0.594 (1 trials)
+B=32 h=4 eps=0.000  after    512 blocks: copies equal to the truth 1.000, disagreement of the others - (none left)
+B=32 h=4 eps=0.000  after   1024 blocks: copies equal to the truth 1.000, disagreement of the others - (none left)
+B=32 h=4 eps=0.000  after   2048 blocks: copies equal to the truth 1.000, disagreement of the others - (none left)
+B=32 h=4 eps=0.000  after   4096 blocks: copies equal to the truth 1.000, disagreement of the others - (none left)
+B=32 h=4 eps=0.000  after   8192 blocks: copies equal to the truth 1.000, disagreement of the others - (none left)
+B=128 h=16 eps=0.000  after      1 blocks: copies equal to the truth 0.000, disagreement of the others 0.462 (12 trials)
+B=128 h=16 eps=0.000  after      2 blocks: copies equal to the truth 0.000, disagreement of the others 0.477 (12 trials)
+B=128 h=16 eps=0.000  after      4 blocks: copies equal to the truth 0.000, disagreement of the others 0.467 (12 trials)
+B=128 h=16 eps=0.000  after      8 blocks: copies equal to the truth 0.000, disagreement of the others 0.472 (12 trials)
+B=128 h=16 eps=0.000  after     16 blocks: copies equal to the truth 0.000, disagreement of the others 0.455 (12 trials)
+B=128 h=16 eps=0.000  after     32 blocks: copies equal to the truth 0.001, disagreement of the others 0.460 (12 trials)
+B=128 h=16 eps=0.000  after     64 blocks: copies equal to the truth 0.001, disagreement of the others 0.456 (12 trials)
+B=128 h=16 eps=0.000  after    128 blocks: copies equal to the truth 0.003, disagreement of the others 0.463 (12 trials)
+B=128 h=16 eps=0.000  after    256 blocks: copies equal to the truth 0.008, disagreement of the others 0.456 (12 trials)
+B=128 h=16 eps=0.000  after    512 blocks: copies equal to the truth 0.010, disagreement of the others 0.462 (12 trials)
+B=128 h=16 eps=0.000  after   1024 blocks: copies equal to the truth 0.012, disagreement of the others 0.463 (12 trials)
+B=128 h=16 eps=0.000  after   2048 blocks: copies equal to the truth 0.048, disagreement of the others 0.463 (12 trials)
+B=128 h=16 eps=0.000  after   4096 blocks: copies equal to the truth 0.116, disagreement of the others 0.482 (12 trials)
+B=128 h=16 eps=0.000  after   8192 blocks: copies equal to the truth 0.237, disagreement of the others 0.461 (12 trials)
+B=512 h=64 eps=0.000  after      1 blocks: copies equal to the truth 0.000, disagreement of the others 0.461 (12 trials)
+B=512 h=64 eps=0.000  after      2 blocks: copies equal to the truth 0.000, disagreement of the others 0.476 (12 trials)
+B=512 h=64 eps=0.000  after      4 blocks: copies equal to the truth 0.000, disagreement of the others 0.468 (12 trials)
+B=512 h=64 eps=0.000  after      8 blocks: copies equal to the truth 0.000, disagreement of the others 0.469 (12 trials)
+B=512 h=64 eps=0.000  after     16 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after     32 blocks: copies equal to the truth 0.000, disagreement of the others 0.472 (12 trials)
+B=512 h=64 eps=0.000  after     64 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after    128 blocks: copies equal to the truth 0.000, disagreement of the others 0.466 (12 trials)
+B=512 h=64 eps=0.000  after    256 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after    512 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after   1024 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after   2048 blocks: copies equal to the truth 0.000, disagreement of the others 0.470 (12 trials)
+B=512 h=64 eps=0.000  after   4096 blocks: copies equal to the truth 0.000, disagreement of the others 0.467 (12 trials)
+B=512 h=64 eps=0.000  after   8192 blocks: copies equal to the truth 0.000, disagreement of the others 0.469 (12 trials)

@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ComparatorChallenges.InnerProductCover",
+  "solution_module": "GC.Computability.SCLadder.Main",
+  "theorem_names": [
+    "GC.SCLadder.inner_product_affine_cover_number",
+    "GC.SCLadder.exact_projection",
+    "GC.SCLadder.index_state_lower_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

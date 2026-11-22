@@ -1,0 +1,40 @@
+Table 1 entry mismatches: 0
+exhaustive NOR circuits G=2: 4 instances, max n=3861, failures={'slot': 0, 'arr': 0, 'val': 0, 'stack': 0, 'bip': 0}, brute-checked=3 same-page crossings=0  [2s]
+exhaustive NOR circuits G=3: 36 instances, max n=12185, failures={'slot': 0, 'arr': 0, 'val': 0, 'stack': 0, 'bip': 0}, brute-checked=0 same-page crossings=0  [2s]
+exhaustive NOR circuits G=4: 576 instances, max n=26525, failures={'slot': 0, 'arr': 0, 'val': 0, 'stack': 0}, brute-checked=0 same-page crossings=0  [16s]
+chain-prev-prev G=5 {'G': 5, 'n': 12577, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+chain-prev-w0 G=5 {'G': 5, 'n': 30497, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+wide w0,w1 G=5 {'G': 5, 'n': 41249, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 G=5 {'G': 5, 'n': 28705, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 both G=5 {'G': 5, 'n': 25121, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+far: g reads 1 and g-1 G=5 {'G': 5, 'n': 23329, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+alternating G=5 {'G': 5, 'n': 23329, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+chain-prev-prev G=8 {'G': 8, 'n': 31405, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+chain-prev-w0 G=8 {'G': 8, 'n': 103085, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+wide w0,w1 G=8 {'G': 8, 'n': 156845, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 G=8 {'G': 8, 'n': 123565, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 both G=8 {'G': 8, 'n': 110765, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+far: g reads 1 and g-1 G=8 {'G': 8, 'n': 85165, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+alternating G=8 {'G': 8, 'n': 57005, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+chain-prev-prev G=11 {'G': 11, 'n': 58297, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+chain-prev-w0 G=11 {'G': 11, 'n': 241337, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+wide w0,w1 G=11 {'G': 11, 'n': 391097, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 G=11 {'G': 11, 'n': 327865, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+fanout gate2 both G=11 {'G': 11, 'n': 301241, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+far: g reads 1 and g-1 G=11 {'G': 11, 'n': 208057, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+alternating G=11 {'G': 11, 'n': 108217, 'slot': True, 'arr': True, 'val': True, 'stack': True}
+random CVP->NOR->Phi: 57 instances, max n=146481, failures={'slot': 0, 'arr': 0, 'val': 0, 'stack': 0}, brute-checked=0 same-page crossings=0  [24s]
+random NOR circuits G<=10: 80 instances, max n=248117, failures={'slot': 0, 'arr': 0, 'val': 0, 'stack': 0}, brute-checked=0 same-page crossings=0  [31s]
+random arrays types=NCXYRO: 120 instances, max n=985, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [33s]
+random arrays types=RO: 120 instances, max n=985, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [35s]
+random arrays types=XY: 120 instances, max n=825, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [36s]
+random arrays types=RX: 120 instances, max n=985, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [38s]
+random arrays types=OY: 120 instances, max n=985, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [39s]
+random arrays types=NR: 120 instances, max n=985, failures={'val': 0, 'stack': 0}, brute-checked=120 same-page crossings=0  [41s]
+exhaustive arrays k=2 d=1: 96 instances, max n=25, failures={'val': 0, 'stack': 0}, brute-checked=96 same-page crossings=0  [41s]
+exhaustive arrays k=2 d=2: 1152 instances, max n=41, failures={'val': 0, 'stack': 0}, brute-checked=1152 same-page crossings=0  [41s]
+exhaustive arrays k=2 d=3: 13824 instances, max n=57, failures={'val': 0, 'stack': 0}, brute-checked=13824 same-page crossings=0  [45s]
+exhaustive arrays k=3 d=1: 1728 instances, max n=35, failures={'val': 0, 'stack': 0}, brute-checked=1728 same-page crossings=0  [46s]
+exhaustive arrays k=3 d=2: 124416 instances, max n=59, failures={'val': 0, 'stack': 0}, brute-checked=124416 same-page crossings=0  [87s]
+exhaustive arrays k=1 d=3: 16 instances, max n=31, failures={'val': 0, 'stack': 0}, brute-checked=16 same-page crossings=0  [87s]
+done 87.30418825149536

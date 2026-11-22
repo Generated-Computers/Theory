@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.InvisibleToSolvable",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.exists_commutator_A5",
+    "GC.A5Programs.tower_exists",
+    "GC.A5Programs.derivedSeries_le_lowerCentralSeries_two_pow",
+    "GC.A5Programs.shadow_solvable",
+    "GC.A5Programs.shadow_nilpotent",
+    "GC.A5Programs.derivedSeries_eq_bot_of_card_lt",
+    "GC.A5Programs.deep_core_invisible"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

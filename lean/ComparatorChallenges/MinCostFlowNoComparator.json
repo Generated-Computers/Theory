@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.MinCostFlowNoComparator",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.Network.boundary_isMConvex",
+    "GC.FlowCircuits.Network.flow_exchange",
+    "GC.FlowCircuits.Network.boundary_exchange",
+    "GC.FlowCircuits.Network.no_allEqualSensor",
+    "GC.FlowCircuits.Network.no_readOnlyComparator",
+    "GC.FlowCircuits.crossbar_table",
+    "GC.FlowCircuits.oneShot_isLeast",
+    "GC.FlowCircuits.no_submodular_nand",
+    "GC.FlowCircuits.no_submodular_nand_any_polarity"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,40 @@
+{
+  "challenge_module": "ComparatorChallenges.RandomSeqNORSmallNoise",
+  "solution_module": "GC.Computability.RandomSeqNOR.Main",
+  "theorem_names": [
+    "GC.RandomSeqNOR.mem_anchors",
+    "GC.RandomSeqNOR.lastRelReset_mem_anchors",
+    "GC.RandomSeqNOR.kp_rounds_eq_depth",
+    "GC.RandomSeqNOR.kpr_rounds_eq_relDepth",
+    "GC.RandomSeqNOR.relDepth_le_depth",
+    "GC.RandomSeqNOR.kp_known_subset_kpr_known",
+    "GC.RandomSeqNOR.depth_one",
+    "GC.RandomSeqNOR.depth_succ_of_isReset",
+    "GC.RandomSeqNOR.depth_succ_of_isNot",
+    "GC.RandomSeqNOR.depth_succ_of_other",
+    "GC.RandomSeqNOR.depth_switch",
+    "GC.RandomSeqNOR.relDepth_one",
+    "GC.RandomSeqNOR.relDepth_succ_of_relReset",
+    "GC.RandomSeqNOR.relDepth_succ_of_irrelReset",
+    "GC.RandomSeqNOR.relDepth_succ_of_relOther",
+    "GC.RandomSeqNOR.relDepth_succ_of_other",
+    "GC.RandomSeqNOR.relDepth_switch",
+    "GC.RandomSeqNOR.zones_depth",
+    "GC.RandomSeqNOR.zones_depth_of_trace_one",
+    "GC.RandomSeqNOR.overapprox_depth",
+    "GC.RandomSeqNOR.zones_relDepth",
+    "GC.RandomSeqNOR.zones_relDepth_of_trace_one",
+    "GC.RandomSeqNOR.overapprox_relDepth",
+    "GC.RandomSeqNOR.noTwoZeros_sum_le",
+    "GC.RandomSeqNOR.kp_lower_constants_a",
+    "GC.RandomSeqNOR.kp_lower_constants_b",
+    "GC.RandomSeqNOR.kp_lower_short_zones"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

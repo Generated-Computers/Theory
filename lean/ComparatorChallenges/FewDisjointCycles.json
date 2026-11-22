@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.FewDisjointCycles",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.latin_relations",
+    "GC.A5Programs.descriptor_comp_pos",
+    "GC.A5Programs.descriptor_comp_neg",
+    "GC.A5Programs.descriptor_inv_pos",
+    "GC.A5Programs.descriptor_inv_neg",
+    "GC.A5Programs.comp_descriptors",
+    "GC.A5Programs.cycle_monodromy",
+    "GC.A5Programs.root_domain_neg",
+    "GC.A5Programs.root_domain_pos"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

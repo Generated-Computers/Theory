@@ -1,0 +1,4 @@
+n = 8: (k, ex_sf, three-layer lower bound, upper bound of Thm 11.1) =
+    [(1, 16, 16, 16.0), (2, 19, 19, 22.0), (3, 21, 21, 28), (4, 22, 21, 28), (5, 22, 20, 28), (6, 23, 17, 28)]
+all checks passed
+python3 check_density.py 8 6  400.66s user 2.46s system 99% cpu 6:43.65 total

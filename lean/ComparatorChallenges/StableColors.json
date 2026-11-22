@@ -1,0 +1,20 @@
+{
+  "challenge_module": "ComparatorChallenges.StableColors",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.frucht_cubic",
+    "GC.A5Programs.frucht_asymmetric",
+    "GC.A5Programs.incidence_refinement_stable",
+    "GC.A5Programs.incidence_rigid",
+    "GC.A5Programs.rotation_orbits_ge",
+    "GC.A5Programs.symmetric_shell",
+    "GC.A5Programs.swap_forest"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

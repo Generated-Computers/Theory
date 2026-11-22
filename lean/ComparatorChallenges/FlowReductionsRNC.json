@@ -1,0 +1,19 @@
+{
+  "challenge_module": "ComparatorChallenges.FlowReductionsRNC",
+  "solution_module": "GC.Optimization.FlowCircuits.Main",
+  "theorem_names": [
+    "GC.FlowCircuits.sum_netOut_eq_zero",
+    "GC.FlowCircuits.gadget_conservation",
+    "GC.FlowCircuits.lasVegas_expected_trials",
+    "GC.FlowCircuits.lasVegas_total_probability",
+    "GC.FlowCircuits.ledger_exponent",
+    "GC.FlowCircuits.calibration"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

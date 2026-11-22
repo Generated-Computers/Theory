@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.StatePortals",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.full_capacity_portal",
+    "GC.Portals.capacity_switch",
+    "GC.Portals.a5_capacity_switch",
+    "GC.Portals.HornSystem.layerMap_mono",
+    "GC.Portals.HornSystem.layerMap_lt",
+    "GC.Portals.HornSystem.layerMap_iterate",
+    "GC.Portals.newly_derivable_not_monotone",
+    "GC.Portals.search_first_stop_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

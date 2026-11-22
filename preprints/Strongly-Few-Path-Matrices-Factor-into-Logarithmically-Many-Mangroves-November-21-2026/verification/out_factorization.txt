@@ -1,0 +1,16 @@
+n = 1: all 1 upper-triangular DAGs checked
+n = 2: all 2 upper-triangular DAGs checked
+n = 3: all 8 upper-triangular DAGs checked
+n = 4: all 64 upper-triangular DAGs checked
+n = 5: all 1024 upper-triangular DAGs checked
+n = 6: all 32768 upper-triangular DAGs checked
+300 random k-strongly-unambiguous graphs (7 <= n <= 24) checked
+  balanced factorizations verified: 29850
+  graphs: 34167
+  level factorizations verified: 34167
+  max factors/(2 floor(log2 k)+1): 1.0
+  pairs u~>v (4.1, 4.2): 551930
+  separators (7.2): 107877
+  thresholds tau (5.1): 74764
+all checks passed
+python3 check_factorization.py  24.61s user 0.16s system 99% cpu 24.814 total

@@ -1,0 +1,22 @@
+{
+  "challenge_module": "ComparatorChallenges.GlobalTableIteration",
+  "solution_module": "GC.Computability.Tabulation.Main",
+  "theorem_names": [
+    "GC.Tabulation.AppendMachine.globalOp_eq_prefixComp",
+    "GC.Tabulation.AppendMachine.globalOp_iterate_exact",
+    "GC.Tabulation.AppendMachine.globalOp_real",
+    "GC.Tabulation.AppendMachine.eq_real_of_fixed",
+    "GC.Tabulation.AppendMachine.stopping_rule",
+    "GC.Tabulation.copy_real",
+    "GC.Tabulation.copy_rank",
+    "GC.Tabulation.copy_rounds",
+    "GC.Tabulation.copy_first_exact_round"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

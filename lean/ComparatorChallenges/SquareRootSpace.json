@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.SquareRootSpace",
+  "solution_module": "GC.Computability.SeqNORNormalForms.Main",
+  "theorem_names": [
+    "GC.SeqNORNormalForms.surject_instance",
+    "GC.SeqNORNormalForms.reset_sets_exact",
+    "GC.SeqNORNormalForms.reset_sets_card",
+    "GC.SeqNORNormalForms.not_subgraph",
+    "GC.SeqNORNormalForms.subdivision_embed",
+    "GC.SeqNORNormalForms.exists_round",
+    "GC.SeqNORNormalForms.fanout_normalization",
+    "GC.SeqNORNormalForms.fanLen_values"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

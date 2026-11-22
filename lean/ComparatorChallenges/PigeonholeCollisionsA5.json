@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.PigeonholeCollisionsA5",
+  "solution_module": "GC.GroupTheory.A5Programs.Main",
+  "theorem_names": [
+    "GC.A5Programs.maurer_rhodes",
+    "GC.A5Programs.probe_selector_A5",
+    "GC.A5Programs.collision_determines_value",
+    "GC.A5Programs.predicate_complete_A5",
+    "GC.A5Programs.universal_collisions",
+    "GC.A5Programs.calculus_sound",
+    "GC.A5Programs.calculus_complete",
+    "GC.A5Programs.boolean_to_twoGen"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

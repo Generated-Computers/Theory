@@ -1,0 +1,12 @@
+random B=16  seed=0 live width   8  max map 151  constant from horizon 512
+random B=16  seed=1 live width  12  max map 164  constant from horizon 2048
+random B=16  seed=2 live width  10  max map 254  constant from horizon 2048
+random B=20  seed=0 live width  15  max map 1006  constant from horizon 2048
+random B=20  seed=1 live width  15  max map 1580  constant from horizon 2048
+random B=20  seed=2 live width  12  max map 1182  constant from horizon 1024
+random B=24  seed=0 live width  18  max map 1996  constant from horizon 4096
+random B=24  seed=1 live width  16  max map 1751  constant from horizon 1024
+random B=24  seed=2 live width  14  max map 2680  constant from horizon 2048
+random B=28  seed=0 live width  18  max map 17587  constant from horizon 4096
+random B=28  seed=1 live width  20  max map 13260  constant from horizon 8192
+random B=28  seed=2 live width  22  max map 13866  constant from horizon 2048

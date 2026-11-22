@@ -1,0 +1,18 @@
+{
+  "challenge_module": "ComparatorChallenges.FanoutHeight",
+  "solution_module": "GC.Computability.Portals.Main",
+  "theorem_names": [
+    "GC.Portals.rounds_bound",
+    "GC.Portals.hcount_le_card",
+    "GC.Portals.seqnor_fanout_set",
+    "GC.Portals.seqnor_fanout_height",
+    "GC.Portals.search_first_stop_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -1,0 +1,21 @@
+{
+  "challenge_module": "ComparatorChallenges.FewUnionProfiles",
+  "solution_module": "GC.Computability.StructuralCompilers.Main",
+  "theorem_names": [
+    "GC.StructuralCompilers.absorbing_elimination",
+    "GC.StructuralCompilers.profile_composition",
+    "GC.StructuralCompilers.localRun_root",
+    "GC.StructuralCompilers.localRun_trueProfile",
+    "GC.StructuralCompilers.unionClosure_card_le_rows",
+    "GC.StructuralCompilers.unionClosure_card_le_cols",
+    "GC.StructuralCompilers.unionClosure_card_le_zeros",
+    "GC.StructuralCompilers.matching_unionClosure_card"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

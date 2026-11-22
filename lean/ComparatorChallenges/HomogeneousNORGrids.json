@@ -1,0 +1,26 @@
+{
+  "challenge_module": "ComparatorChallenges.HomogeneousNORGrids",
+  "solution_module": "GC.Combinatorics.GridCompilers.Main",
+  "theorem_names": [
+    "GC.GridCompilers.active_row_formula",
+    "GC.GridCompilers.active_row_noAdj",
+    "GC.GridCompilers.reset_row_iff",
+    "GC.GridCompilers.reset_row_threshold",
+    "GC.GridCompilers.orientation_example",
+    "GC.GridCompilers.zero_column_iff",
+    "GC.GridCompilers.zero_column_threshold",
+    "GC.GridCompilers.diagonal_collapse",
+    "GC.GridCompilers.diagonal_collapse_iterate",
+    "GC.GridCompilers.slab_cell_copy",
+    "GC.GridCompilers.no_vertical_000",
+    "GC.GridCompilers.transferClass_comp",
+    "GC.GridCompilers.card_transferClass_le"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
