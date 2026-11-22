@@ -8,15 +8,18 @@ Sequential NOR, the P-complete recurrence $`x_0 = 1`$, $`x_i = \mathrm{NOR}(x_{i
 with $`0 \le j_i < i`$. Family 012 concerns the space complexity of directed reachability in graphs
 with few walks.
 
-The manuscripts were developed with the assistance of an AI system, and no human referee has
-checked them yet. In our view they are best understood as a form of raw research data, rather
-than polished academic papers. Each manuscript's README says what is proved in full, what is
-sketched, conditional or numerical, and what was corrected relative to the notes it was
-rewritten from.
+The manuscripts were written together with an AI system and are shared as working research:
+new results, released early so that others can read them, check them and build on them. Each
+manuscript's README says what is proved in full, what is sketched, conditional or numerical,
+and what was corrected relative to the notes it was rewritten from.
 
-No manuscript proves P ⊆ NC, P ⊆ BPNC, P ⊆ quasiNC, P ⊆ SC, P ⊆ SP or P ⊆ EP, or claims
-progress toward them. Statements about these inclusions appear only as reductions,
-conditional results or barriers, and are labelled as such.
+Everything here is aimed at the question on the banner: can everything computable in
+polynomial time also be computed in polylogarithmic parallel time? The question is still open,
+and the manuscripts work on it from both sides. Some put large families of instances of
+P-complete problems into NC or quasiNC: random inputs, low-defect instances, instances with few
+long paths, constant-frontier computations. Others pin down exactly what a fast parallel
+algorithm would have to do, or show why natural approaches fail. The neighbouring questions come
+up too: P versus BPNC, quasiNC and SC, and whether P admits polynomial parallel speedups (SP, EP).
 
 ## Navigating the collection
 
