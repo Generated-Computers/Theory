@@ -4,6 +4,8 @@
 
 **Date:** November 3, 2026
 
+> **Superseded (24 November 2026).** Superseded by the consolidated paper [Sequential NOR on Random and Smoothed Instances](../../papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf) (Sections 7–11). There the hardness reaches every noise level below 4/9, not only 1/64, through a latch embedding, and success probability n^(-K) already suffices. So, unless P ⊆ BPNC, the critical noise level lies in [4/9, 3/4], also at each level NC^k, k ≥ 2.
+
 ## Citation
 
 ```bibtex

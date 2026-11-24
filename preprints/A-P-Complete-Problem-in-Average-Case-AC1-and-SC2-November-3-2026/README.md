@@ -4,6 +4,8 @@
 
 **Date:** November 3, 2026
 
+> **Superseded (24 November 2026).** The main results of this manuscript are in the consolidated paper [Sequential NOR on Random and Smoothed Instances](../../papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf) (Sections 3–5 and 13), which also gives an errorless deterministic logspace algorithm above noise 3/4. That paper also computes first-moment chain counts exactly on repeating bases (Section 15): on one base fixed in advance the count of all dependency chains grows at noise 0.72 (Proposition 145), so no count of all chains works below about 0.72 for every base. The estimates 0.686 and 0.6025 in the remark "What a proof needs" concern narrower counts; they remain heuristic and unproved. The theorems of this manuscript are unaffected.
+
 ## Citation
 
 ```bibtex

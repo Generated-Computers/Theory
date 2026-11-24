@@ -1,0 +1,21 @@
+T4 k = 4
+  39 mangrove factors below C
+  residuals after 1 factors: 39
+T4: minimum number of mangrove factors = 2  (0.0s)
+   factor edges: [(0, 1), (0, 3), (1, 2)]
+   factor edges: [(0, 2), (1, 3), (2, 3)]
+T5 k = 8
+  326 mangrove factors below C
+  residuals after 1 factors: 326
+  residuals after 2 factors: 8689
+T5: minimum number of mangrove factors = 3  (1.0s)
+   factor edges: [(0, 2), (0, 4)]
+   factor edges: [(0, 1), (1, 2), (1, 4), (2, 3)]
+   factor edges: [(0, 3), (1, 3), (2, 4), (3, 4)]
+D2 k = 4
+  38098 mangrove factors below C
+  residuals after 1 factors: 18644
+D2: minimum number of mangrove factors = 2  (3.2s)
+   factor edges: [(0, 2), (0, 6), (1, 6), (2, 5), (3, 5), (3, 6), (4, 6)]
+   factor edges: [(0, 1), (1, 3), (1, 5), (2, 3), (2, 6), (3, 4), (5, 6)]
+python3 explore_min_factors.py  4.21s user 0.06s system 98% cpu 4.316 total

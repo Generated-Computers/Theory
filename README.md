@@ -21,6 +21,25 @@ long paths, constant-frontier computations. Others pin down exactly what a fast 
 algorithm would have to do, or show why natural approaches fail. The neighbouring questions come
 up too: P versus BPNC, quasiNC and SC, and whether P admits polynomial parallel speedups (SP, EP).
 
+## Papers
+
+The 60 manuscripts are consolidated into nine self-contained papers and three short notes, organised by problem and thesis. Each folder in [`papers/`](papers/) has the PDF, a README with the abstract, the main results and their status, the manuscripts it consolidates, and the `verification/` scripts. The paper on random and smoothed instances extends family 001: its hardness reaches every noise level below 4/9, and it comes with Lean proofs of the deterministic lemmas of its embeddings.
+
+| | Paper | Families |
+| --- | --- | --- |
+| 1 | [Sequential NOR on Random and Smoothed Instances](papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf) | 001 |
+| 2 | [Strongly-Few Reachability, Mangroves and Logspace](papers/2-Strongly-Few-Reachability-Mangroves-and-Logspace/paper.pdf) | 012 |
+| 3 | [Newton's Method, Horn Saturation and Strahler Rank](papers/3-Newtons-Method-Horn-Saturation-and-Strahler-Rank/paper.pdf) | 001, 002, 005, 006 |
+| 4 | [A₅ Circuits Between NC² and P-Completeness](papers/4-A5-Circuits-Between-NC2-and-P-Completeness/paper.pdf) | 004, 005 |
+| 5 | [Normal Forms and NC Compilers for Sequential NOR](papers/5-Normal-Forms-and-NC-Compilers-for-Sequential-NOR/paper.pdf) | 006, 007, 009, 010, 011 |
+| 6a | [Structural Parameters That Put Circuit Evaluation in NC](papers/6a-Structural-Parameters-That-Put-Circuit-Evaluation-in-NC/paper.pdf) | 003, 004, 005, 007, 008, 010 |
+| 6b | [NC Fragments of SC and Control-Trace Reductions](papers/6b-NC-Fragments-of-SC-and-Control-Trace-Reductions/paper.pdf) | 005, 006, 008, 010 |
+| 7a | [Barriers to Speeding Up Circuit Evaluation](papers/7a-Barriers-to-Speeding-Up-Circuit-Evaluation/paper.pdf) | 003, 005, 007, 009, 010 |
+| 7b | [Circuit Evaluation by Flows and Linear Programs](papers/7b-Circuit-Evaluation-by-Flows-and-Linear-Programs/paper.pdf) | 003 |
+| N1 | [Stable Semisort Is Exactly as Hard as Padded Sorting (note)](papers/N1-Stable-Semisort-Is-Exactly-as-Hard-as-Padded-Sorting/paper.pdf) | 011 |
+| N2 | [Stable Colors Do Not Certify Symmetry (note)](papers/N2-Stable-Colors-Do-Not-Certify-Symmetry/paper.pdf) | 004 |
+| N3 | [Inner Product Has Affine-Cover Number 2ᵐ (note)](papers/N3-Inner-Product-Has-Affine-Cover-Number-2m/paper.pdf) | 008 |
+
 ## Navigating the collection
 
 The current catalogue contains 60 manuscripts organized into 12 result families. A family
@@ -47,6 +66,9 @@ NOR done from 27 October to 3 November 2026. On 27 October 2026 the notes were r
 95 results were scored for correctness and value. On 3 November 2026 every result that
 survived the review was rewritten as a standalone paper. On 21 November 2026 a 72-page note of
 9 September 2026 on strongly-few reachability was rewritten as the five manuscripts of family 012.
+On 24 November 2026 the 60 manuscripts were consolidated into nine papers and three short notes;
+the paper on random and smoothed instances was replaced by a stronger version that extends the
+hardness from noise 1/64 to every level below 4/9.
 
 - **Proofs were checked against the sources.** Gaps were filled where possible; otherwise the
   proof is labelled a sketch.

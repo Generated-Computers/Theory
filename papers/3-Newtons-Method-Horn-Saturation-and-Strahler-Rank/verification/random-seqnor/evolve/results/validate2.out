@@ -1,0 +1,84 @@
+baseline kp
+   emb-w2     rounds [39, 138, 558, 2209]         slope 0.98
+   emb-w8     rounds [11, 37, 146, 574]           slope 0.96
+   emb-wsqrt  rounds [17, 32, 66, 126]            slope 0.49
+   emb-rand   rounds [31, 31, 42, 61]             slope 0.17
+   block32    rounds [79, 271, 1041, 4112]        slope 0.95
+   lin2       rounds [1020, 4063, 14393, 60835]   slope 0.98
+   uniform    rounds [23, 33, 42, 49]             slope 0.18
+   emb1-w2    rounds [256, 1025, 4097, 15643]     slope 0.99
+   emb1-w4    rounds [129, 513, 2049, 8194]       slope 1.00
+   emb1-w8    rounds [65, 257, 1026, 4097]        slope 1.00
+   block8     rounds [259, 1027, 4098, 16387]     slope 1.00
+   block32@0.3 rounds [79, 276, 1047, 4098]        slope 0.95
+   emb1-w4@0.1 rounds [108, 475, 1970, 6972]       slope 1.00
+baseline kpr
+   emb-w2     rounds [27, 97, 380, 1500]          slope 0.97
+   emb-w8     rounds [8, 28, 98, 380]             slope 0.93
+   emb-wsqrt  rounds [12, 23, 46, 84]             slope 0.47
+   emb-rand   rounds [16, 18, 27, 37]             slope 0.21
+   block32    rounds [74, 267, 1037, 4105]        slope 0.97
+   lin2       rounds [683, 2726, 9100, 40302]     slope 0.97
+   uniform    rounds [19, 22, 32, 36]             slope 0.17
+   emb1-w2    rounds [256, 895, 3997, 9365]       slope 0.89
+   emb1-w4    rounds [126, 486, 1487, 6628]       slope 0.94
+   emb1-w8    rounds [65, 257, 1025, 2197]        slope 0.86
+   block8     rounds [257, 1026, 4097, 16191]     slope 1.00
+   block32@0.3 rounds [73, 222, 738, 2109]         slope 0.81
+   emb1-w4@0.1 rounds [66, 231, 376, 644]          slope 0.53
+baseline newton
+   emb-w2     rounds [21, 68, 241, 948]           slope 0.92
+   emb-w8     rounds [8, 17, 66, 222]             slope 0.82
+   emb-wsqrt  rounds [12, 16, 31, 52]             slope 0.37
+   emb-rand   rounds [12, 15, 17, 23]             slope 0.15
+   block32    rounds [46, 205, 803, 3208]         slope 1.02
+   lin2       rounds [330, 1194, 3854, 11692]     slope 0.86
+   uniform    rounds [8, 13, 13, 17]              slope 0.16
+   emb1-w2    rounds [222, 805, 3597, 7636]       slope 0.87
+   emb1-w4    rounds [99, 345, 815, 4090]         slope 0.87
+   emb1-w8    rounds [38, 120, 566, 1235]         slope 0.87
+   block8     rounds [157, 584, 2480, 9992]       slope 1.00
+   block32@0.3 rounds [36, 83, 213, 553]           slope 0.66
+   emb1-w4@0.1 rounds [31, 51, 109, 207]           slope 0.47
+greedy K=6
+   emb-w2     rounds [14, 51, 191, 765]           slope 0.96
+   emb-w8     rounds [5, 15, 51, 195]             slope 0.88
+   emb-wsqrt  rounds [7, 13, 24, 44]              slope 0.44
+   emb-rand   rounds [8, 9, 13, 16]               slope 0.18
+   block32    rounds [51, 188, 770, -1156]        slope 0.78  (negative = unfinished at cap)
+   lin2       rounds [11, 17, 25, 47]             slope 0.34
+   uniform    rounds [9, 11, 12, 14]              slope 0.10
+   emb1-w2    rounds [34, 91, 371, 806]           slope 0.79
+   emb1-w4    rounds [32, 133, 392, -1157]        slope 0.85  (negative = unfinished at cap)
+   emb1-w8    rounds [21, 77, 305, 658]           slope 0.84
+   block8     rounds [132, 517, -900, -1156]      slope 0.51  (negative = unfinished at cap)
+   block32@0.3 rounds [33, 79, 221, 620]           slope 0.71
+   emb1-w4@0.1 rounds [18, 42, 66, 124]            slope 0.45
+anchored K=12
+   emb-w2     rounds [12, 28, 94, 354]            slope 0.82
+   emb-w8     rounds [8, 13, 30, 98]              slope 0.60
+   emb-wsqrt  rounds [9, 13, 18, 28]              slope 0.27
+   emb-rand   rounds [9, 11, 14, 16]              slope 0.14
+   block32    rounds [54, 200, 791, -1156]        slope 0.76  (negative = unfinished at cap)
+   lin2       rounds [12, 14, 15, 17]             slope 0.08
+   uniform    rounds [11, 14, 16, 18]             slope 0.12
+   emb1-w2    rounds [11, 13, 15, 18]             slope 0.12
+   emb1-w4    rounds [11, 14, 15, 18]             slope 0.11
+   emb1-w8    rounds [12, 26, 70, 156]            slope 0.63
+   block8     rounds [10, 11, 11, 12]             slope 0.04
+   block32@0.3 rounds [28, 58, 118, 203]           slope 0.48
+   emb1-w4@0.1 rounds [11, 15, 19, 23]             slope 0.18
+evolved {'engine': 'bdd', 'S': 32, 'VMAX': 16, 'order': 4, 'maxsub': 0} (search fitness 0.337)
+   emb-w2     rounds [14, 37, 127]                slope 0.80
+   emb-w8     rounds [8, 16, 38]                  slope 0.56
+   emb-wsqrt  rounds [10, 14, 21]                 slope 0.27
+   emb-rand   rounds [10, 12, 15]                 slope 0.15
+   block32    rounds [68, 265, -900]              slope 0.93  (negative = unfinished at cap)
+   lin2       rounds [12, 14, 16]                 slope 0.10
+   uniform    rounds [13, 16, 18]                 slope 0.12
+   emb1-w2    rounds [12, 14, 16]                 slope 0.10
+   emb1-w4    rounds [11, 14, 16]                 slope 0.14
+   emb1-w8    rounds [14, 28, 66]                 slope 0.56
+   block8     rounds [10, 12, 12]                 slope 0.07
+   block32@0.3 rounds [37, 75, 146]                slope 0.50
+   emb1-w4@0.1 rounds [13, 18, 25]                 slope 0.24

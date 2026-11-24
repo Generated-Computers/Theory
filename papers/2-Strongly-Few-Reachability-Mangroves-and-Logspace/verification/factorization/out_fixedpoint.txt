@@ -1,0 +1,4 @@
+Theorem 3.1: 164 (graph, k) pairs checked by exhaustive search over C
+Theorem 3.3 / Corollary 3.4: 1131102 (graph, root, budget) cases, 168985 within budget
+all checks passed
+python3 check_fixedpoint.py  23.45s user 0.28s system 99% cpu 23.791 total

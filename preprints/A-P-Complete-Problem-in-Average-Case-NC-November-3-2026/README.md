@@ -4,6 +4,8 @@
 
 **Date:** November 3, 2026
 
+> **Superseded (24 November 2026).** The results of this manuscript are in Section 6 of the consolidated paper [Sequential NOR on Random and Smoothed Instances](../../papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf), and also in the paper [Newton's Method, Horn Saturation and Strahler Rank](../../papers/3-Newtons-Method-Horn-Saturation-and-Strahler-Rank/paper.pdf) of this collection.
+
 ## Citation
 
 ```bibtex
