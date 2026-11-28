@@ -4,7 +4,7 @@
 
 **Date:** November 3, 2026
 
-> **Superseded (24 November 2026).** Superseded by the consolidated paper [Sequential NOR on Random and Smoothed Instances](../../papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf) (Sections 12 and 16). There both iterations need linearly many rounds against adaptive adversaries, and Ω(n/log n) rounds on random block bases fixed in advance below explicit noise levels, with 4/9 the exact level of the relevance-pruned iteration on those bases.
+> **Superseded (24 November 2026; updated 28 November 2026).** Superseded by the consolidated paper [Sequential NOR on Random and Smoothed Instances](../../papers/1-Sequential-NOR-on-Random-and-Smoothed-Instances/paper.pdf) (Sections 13 and 17). There both iterations need linearly many rounds against adaptive adversaries, and Ω(n/log n) rounds on random block bases fixed in advance below explicit noise levels, with 4/9 the exact level of the relevance-pruned iteration on those bases when they are built over zero gates.
 
 ## Citation
 

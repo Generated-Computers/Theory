@@ -23,7 +23,7 @@ up too: P versus BPNC, quasiNC and SC, and whether P admits polynomial parallel 
 
 ## Papers
 
-The 60 manuscripts are consolidated into nine self-contained papers and three short notes, organised by problem and thesis. Each folder in [`papers/`](papers/) has the PDF, a README with the abstract, the main results and their status, the manuscripts it consolidates, and the `verification/` scripts. The paper on random and smoothed instances extends family 001: its hardness reaches every noise level below 4/9, and it comes with Lean proofs of the deterministic lemmas of its embeddings.
+The 60 manuscripts are consolidated into nine self-contained papers and three short notes, organised by problem and thesis. Each folder in [`papers/`](papers/) has the PDF, a README with the abstract, the main results and their status, the manuscripts it consolidates, and the `verification/` scripts. The paper on random and smoothed instances extends family 001: its hardness reaches every noise level up to 0.4468, its algorithms work on every base above noise 0.7288, and it comes with Lean proofs of the deterministic lemmas of its embeddings.
 
 | | Paper | Families |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ survived the review was rewritten as a standalone paper. On 21 November 2026 a 7
 9 September 2026 on strongly-few reachability was rewritten as the five manuscripts of family 012.
 On 24 November 2026 the 60 manuscripts were consolidated into nine papers and three short notes;
 the paper on random and smoothed instances was replaced by a stronger version that extends the
-hardness from noise 1/64 to every level below 4/9.
+hardness from noise 1/64 to every level below 4/9. On 28 November 2026 that paper was replaced by a newer version, with hardness up to 0.4468 and an algorithm for every base above 0.7288, after a section-by-section check.
 
 - **Proofs were checked against the sources.** Gaps were filled where possible; otherwise the
   proof is labelled a sketch.
